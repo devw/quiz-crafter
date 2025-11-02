@@ -1,0 +1,42 @@
+# 🧶 Node & Yarn
+node_modules/
+yarn-error.log
+.pnp/
+.pnp.js
+
+# 🧠 Environment Files
+.env
+.env.local
+.env.*.local
+
+# 🔐 Google Credentials
+credentials.json
+*.key.json
+
+# 🧰 Build & Logs
+dist/
+build/
+logs/
+*.log
+
+# 🧩 IDE & System Files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🧾 Coverage & Reports
+coverage/
+.nyc_output/
+report.html
+
+# 🚀 Temp & Cache
+tmp/
+.cache/
+*.tmp
+*.bak
+
+# 🧪 Test Results
+jest-report/
+test-results/

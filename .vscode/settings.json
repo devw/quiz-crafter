@@ -1,0 +1,39 @@
+{
+    // === Theme & Appearance ===
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "window.zoomLevel": 1,
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.6,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.smoothScrolling": true,
+    "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    // === Toolbar & UI Colors ===
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1E1E2E",
+        "activityBar.foreground": "#89B4FA",
+        "statusBar.background": "#181825",
+        "statusBar.foreground": "#CDD6F4",
+        "titleBar.activeBackground": "#11111B",
+        "titleBar.activeForeground": "#CBA6F7",
+        "editor.background": "#0F0F17",
+        "editor.foreground": "#F8F8F2",
+        "sideBar.background": "#141421",
+        "sideBar.foreground": "#BAC2DE"
+    },
+
+    // === Files & Tabs ===
+    "files.autoSave": "onWindowChange",
+    "files.trimTrailingWhitespace": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false
+}

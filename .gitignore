@@ -21,7 +21,6 @@ logs/
 
 # 🧩 IDE & System Files
 .DS_Store
-.vscode/
 .idea/
 *.swp
 *.swo

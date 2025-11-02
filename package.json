@@ -2,5 +2,13 @@
   "name": "quiz-crafter",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "googleapis": "^164.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.0",
+    "prettier": "^3.6.2"
+  }
 }

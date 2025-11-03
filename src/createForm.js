@@ -1,41 +1,74 @@
+// src/createForm.js
 import { google } from "googleapis";
 import dotenv from "dotenv";
-import path from "path";
-import { fileURLToPath } from "url";
+import fs from "fs";
 
 dotenv.config();
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+const credentialsPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+const folderId = process.env.GOOGLE_DRIVE_FOLDER_ID;
+const jsonUrl = process.env.QUIZ_JSON_URL;
+const maxQuestions = parseInt(process.env.MAX_QUESTIONS || "5", 10);
 
-const credentialsPath = path.resolve(process.env.GOOGLE_APPLICATION_CREDENTIALS.replace("~", process.env.HOME));
+(async () => {
+    console.log("🚀 Starting Quiz Crafter...");
+    console.log(`🔍 Using credentials: ${credentialsPath}`);
+    console.log(`📁 Target folder: ${folderId}`);
+    console.log(`🌐 JSON source: ${jsonUrl}`);
 
-const auth = new google.auth.GoogleAuth({
-    keyFile: credentialsPath,
-    scopes: ["https://www.googleapis.com/auth/forms.body"],
-});
-
-const forms = google.forms({ version: "v1", auth });
-
-const createForm = async () => {
     try {
-        const res = await forms.forms.create({
-            requestBody: {
-                info: {
-                    title: "🧠 Quiz Crafter Test Form",
-                    documentTitle: "Quiz Crafter Demo",
-                },
-            },
+        // --- Step 1: Check credentials file ---
+        if (!fs.existsSync(credentialsPath)) {
+            throw new Error(`❌ Credentials file not found: ${credentialsPath}`);
+        }
+
+        // --- Step 2: Authenticate with Google ---
+        const auth = new google.auth.GoogleAuth({
+            keyFile: credentialsPath,
+            scopes: [
+                "https://www.googleapis.com/auth/forms.body",
+                "https://www.googleapis.com/auth/forms.responses.readonly",
+                "https://www.googleapis.com/auth/drive.file",
+            ],
         });
 
-        console.log("✅ Form created successfully!");
-        console.log("📝 Form ID:", res.data.formId);
-        console.log(
-            "🔗 Edit URL (open with your account): https://docs.google.com/forms/d/" + res.data.formId + "/edit"
-        );
-    } catch (err) {
-        console.error("❌ Error creating form:", err.message);
-    }
-};
+        const authClient = await auth.getClient();
+        const forms = google.forms({ version: "v1", auth: authClient });
 
-createForm();
+        console.log("✅ Authenticated successfully.");
+
+        // --- Step 3: Create Form Request ---
+        const requestBody = {
+            info: {
+                title: "Quiz Crafter Test Form",
+                documentTitle: "Quiz Crafter Test Form",
+                description: "Form generated automatically using Google Forms API",
+            },
+        };
+
+        console.log("🛠️ Creating a new Google Form...");
+        console.log("📤 Sending request to Google Forms API...");
+        console.dir(requestBody, { depth: null });
+
+        // --- Step 4: Send the create form request ---
+        const res = await forms.forms.create({ requestBody });
+
+        console.log("✅ Form created successfully!");
+        console.log("📩 API Response:", res.data);
+
+        console.log(`📝 Form ID: ${res.data.formId}`);
+        console.log(`🔗 Form URL: ${res.data.responderUri}`);
+    } catch (err) {
+        console.error("❌ Error creating form:");
+
+        // Print detailed API error info if available
+        if (err.response?.data?.error) {
+            console.error("🔎 API Error Details:");
+            console.dir(err.response.data.error, { depth: null });
+        } else if (err.errors) {
+            console.dir(err.errors, { depth: null });
+        } else {
+            console.error(err);
+        }
+    }
+})();

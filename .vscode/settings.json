@@ -8,7 +8,7 @@
     "editor.fontSize": 15,
     "editor.lineHeight": 1.6,
     "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "all",
     "editor.smoothScrolling": true,

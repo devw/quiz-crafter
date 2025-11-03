@@ -19,7 +19,7 @@ if (!keyPath || !fs.existsSync(keyPath)) {
 // 🔑 Authenticate using service account
 const auth = new google.auth.GoogleAuth({
     keyFile: keyPath,
-    scopes: ["https://www.googleapis.com/auth/drive"],
+    scopes: ["https://www.googleapis.com/auth/drive", "https://www.googleapis.com/auth/forms.body"],
 });
 
 const testGoogleAuth = async () => {

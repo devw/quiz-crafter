@@ -1,6 +1,5 @@
 import { google } from "googleapis";
 import dotenv from "dotenv";
-import fs from "fs";
 import authenticate from "./authUser.js";
 
 dotenv.config();
@@ -15,12 +14,13 @@ dotenv.config();
 
         console.log("✅ Authenticated successfully with user credentials.");
 
-        // 2️⃣ Create form (only title allowed)
+        // 2️⃣ Create form with all info at once
         console.log("🛠️ Creating new Google Form...");
         const createResponse = await forms.forms.create({
             requestBody: {
                 info: {
                     title: "Quiz Crafter Test Form",
+                    documentTitle: "Quiz Crafter Test Form", // Set on create
                 },
             },
         });
@@ -28,8 +28,8 @@ dotenv.config();
         const formId = createResponse.data.formId;
         console.log(`✅ Form created successfully! ID: ${formId}`);
 
-        // 3️⃣ Add description & title update via batchUpdate
-        console.log("🧩 Updating form info (description, documentTitle)...");
+        // 3️⃣ Update only the description (documentTitle is read-only after creation)
+        console.log("🧩 Updating form description...");
 
         const updateResponse = await forms.forms.batchUpdate({
             formId,
@@ -39,9 +39,8 @@ dotenv.config();
                         updateFormInfo: {
                             info: {
                                 description: "🧠 Form generated automatically using Google Forms API (OAuth2 flow)",
-                                documentTitle: "Quiz Crafter Test Form",
                             },
-                            updateMask: "description,documentTitle",
+                            updateMask: "description", // Only update description
                         },
                     },
                 ],
@@ -53,8 +52,10 @@ dotenv.config();
         console.log(`📩 Response URL: ${createResponse.data.responderUri || "(not available yet)"}`);
     } catch (err) {
         console.error("❌ Error creating or updating form:");
-        if (err.errors) {
-            console.dir(err.errors, { depth: null });
+        if (err.response?.data) {
+            console.error(err.response.data);
+        } else if (err.message) {
+            console.error(err.message);
         } else {
             console.dir(err, { depth: null });
         }

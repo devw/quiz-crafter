@@ -39,3 +39,4 @@ tmp/
 # 🧪 Test Results
 jest-report/
 test-results/
+token.json

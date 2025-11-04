@@ -1,63 +1,107 @@
 import { google } from "googleapis";
 import dotenv from "dotenv";
 import authenticate from "./authUser.js";
+import { log, logError } from "./utils/logger.js";
+import { createFormRequest, updateDescriptionRequest, createBatchUpdateParams } from "./utils/formHelpers.js";
+import { getFormUrls } from "./utils/urlBuilder.js";
 
 dotenv.config();
 
-(async () => {
-    try {
-        console.log("🚀 Starting Quiz Crafter with OAuth2 user authentication...");
+// 📝 Constants
+const FORM_CONFIG = {
+    title: "Quiz Crafter Test",
+    description: "🧠 Form generated automatically using Google Forms API (OAuth2 flow)",
+};
 
-        // 1️⃣ Authenticate user
-        const authClient = await authenticate();
-        const forms = google.forms({ version: "v1", auth: authClient });
+// 🎯 Core functions
+const initializeFormsAPI = (authClient) => {
+    const formsAPI = google.forms({ version: "v1", auth: authClient });
+    return formsAPI;
+};
 
-        console.log("✅ Authenticated successfully with user credentials.");
+const displayResults = (formId, responderUri) => {
+    const urls = getFormUrls(formId, responderUri);
 
-        // 2️⃣ Create form with all info at once
-        console.log("🛠️ Creating new Google Form...");
-        const createResponse = await forms.forms.create({
-            requestBody: {
-                info: {
-                    title: "Quiz Crafter Test Form",
-                    documentTitle: "Quiz Crafter Test Form", // Set on create
-                },
-            },
-        });
+    log("✅", "Form updated successfully!");
+    log("🔗", `Edit URL: ${urls.edit}`);
+    log("📩", `Response URL: ${urls.response}`);
+};
 
-        const formId = createResponse.data.formId;
-        console.log(`✅ Form created successfully! ID: ${formId}`);
+// 🚀 Main workflow
+const createForm = (forms, title) => {
+    log("🛠️", "Creating new Google Form...");
 
-        // 3️⃣ Update only the description (documentTitle is read-only after creation)
-        console.log("🧩 Updating form description...");
+    const request = createFormRequest(title);
+    const createPromise = forms.forms.create(request);
 
-        const updateResponse = await forms.forms.batchUpdate({
+    const resultPromise = createPromise.then((response) => {
+        const formId = response.data.formId;
+        const responderUri = response.data.responderUri;
+
+        log("✅", `Form created successfully! ID: ${formId}`);
+
+        const context = {
+            forms,
             formId,
-            requestBody: {
-                requests: [
-                    {
-                        updateFormInfo: {
-                            info: {
-                                description: "🧠 Form generated automatically using Google Forms API (OAuth2 flow)",
-                            },
-                            updateMask: "description", // Only update description
-                        },
-                    },
-                ],
-            },
-        });
+            responderUri,
+        };
 
-        console.log("✅ Form updated successfully!");
-        console.log(`🔗 Edit URL: https://docs.google.com/forms/d/${formId}/edit`);
-        console.log(`📩 Response URL: ${createResponse.data.responderUri || "(not available yet)"}`);
-    } catch (err) {
-        console.error("❌ Error creating or updating form:");
-        if (err.response?.data) {
-            console.error(err.response.data);
-        } else if (err.message) {
-            console.error(err.message);
-        } else {
-            console.dir(err, { depth: null });
-        }
-    }
-})();
+        return context;
+    });
+
+    return resultPromise;
+};
+
+const updateFormDescription = ({ forms, formId, responderUri }, description) => {
+    log("🧩", "Updating form description...");
+
+    const requestBody = updateDescriptionRequest(description);
+    const updateParams = createBatchUpdateParams(formId, requestBody);
+
+    const updatePromise = forms.forms.batchUpdate(updateParams);
+
+    const resultPromise = updatePromise.then(() => {
+        const result = {
+            formId,
+            responderUri,
+        };
+        return result;
+    });
+
+    return resultPromise;
+};
+
+const startQuizCrafter = () => {
+    log("🚀", "Starting Quiz Crafter with OAuth2 user authentication...");
+
+    const authPromise = authenticate();
+
+    const formsPromise = authPromise.then((authClient) => {
+        log("✅", "Authenticated successfully with user credentials.");
+        const formsAPI = initializeFormsAPI(authClient);
+        return formsAPI;
+    });
+
+    const createPromise = formsPromise.then((forms) => {
+        const formContext = createForm(forms, FORM_CONFIG.title);
+        return formContext;
+    });
+
+    const updatePromise = createPromise.then((context) => {
+        const updatedContext = updateFormDescription(context, FORM_CONFIG.description);
+        return updatedContext;
+    });
+
+    const finalPromise = updatePromise.then(({ formId, responderUri }) => {
+        displayResults(formId, responderUri);
+    });
+
+    const errorHandledPromise = finalPromise.catch((error) => {
+        logError("Error creating or updating form:", error);
+    });
+
+    return errorHandledPromise;
+};
+
+// 🎬 Execute
+startQuizCrafter();

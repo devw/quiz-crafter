@@ -1,0 +1,26 @@
+{
+    "title": "Quiz Logica - Sequenze Numeriche",
+    "description": "Test delle tue abilità logiche con sequenze numeriche e pattern",
+    "sections": [
+        {
+            "title": "Sezione 1: Sequenze Numeriche",
+            "description": "Trova il numero mancante seguendo la logica della sequenza.",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "2, 6, 12, 20, 30, ?",
+                    "hint": "Guarda le differenze tra i numeri consecutivi",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "40", "label": "A" },
+                        { "value": "42", "label": "B", "isCorrect": true },
+                        { "value": "44", "label": "C" },
+                        { "value": "36", "label": "D" }
+                    ],
+                    "feedback": "Si aggiungono i numeri pari consecutivi: +4, +6, +8, +10, +12"
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 {
-    "title": "Quiz Logica - Sequenze Numeriche",
-    "description": "Test delle tue abilità logiche con sequenze numeriche e pattern",
+    "title": "Quiz Logica - Livello Avanzato",
+    "description": "Testa le tue abilità logiche con sequenze numeriche, ragionamento verbale, deduzione e sillogismi.",
     "sections": [
         {
             "title": "Sezione 1: Sequenze Numeriche",
@@ -19,8 +19,230 @@
                         { "value": "36", "label": "D" }
                     ],
                     "feedback": "Si aggiungono i numeri pari consecutivi: +4, +6, +8, +10, +12"
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "1, 1, 2, 6, 24, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "48", "label": "A" },
+                        { "value": "72", "label": "B" },
+                        { "value": "120", "label": "C", "isCorrect": true },
+                        { "value": "144", "label": "D" }
+                    ],
+                    "feedback": "👉 Ogni termine viene ottenuto moltiplicando il precedente per un numero che aumenta di 1. Quindi il prossimo sarà: 24×5=120"
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "3, 7, 15, 31, 63, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "127", "label": "A", "isCorrect": true },
+                        { "value": "125", "label": "B" },
+                        { "value": "129", "label": "C" },
+                        { "value": "95", "label": "D" }
+                    ],
+                    "feedback": "Ogni numero è (precedente × 2) + 1"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: Ragionamento Verbale",
+            "description": "Trova la relazione logica tra le parole.",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "LIBRO sta a PAGINA come CASA sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Mattone", "label": "A", "isCorrect": true },
+                        { "value": "Tetto", "label": "B" },
+                        { "value": "Giardino", "label": "C" },
+                        { "value": "Finestra", "label": "D" }
+                    ],
+                    "feedback": "Un libro è composto da pagine, una casa è composta da mattoni."
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Quale parola NON appartiene al gruppo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Violino", "label": "A" },
+                        { "value": "Chitarra", "label": "B" },
+                        { "value": "Pianoforte", "label": "C" },
+                        { "value": "Tromba", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Gli altri sono strumenti a corda, la tromba è uno strumento a fiato."
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "Se MARE = 13-1-18-5, allora CIELO = ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "3-9-5-12-15", "label": "A", "isCorrect": true },
+                        { "value": "3-8-5-11-14", "label": "B" },
+                        { "value": "4-9-6-12-15", "label": "C" },
+                        { "value": "2-8-4-11-14", "label": "D" }
+                    ],
+                    "feedback": "Ogni lettera corrisponde alla sua posizione nell'alfabeto (C=3, I=9, E=5, L=12, O=15)."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 3: Problemi di Deduzione",
+            "description": "Risolvi usando il ragionamento logico.",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "In una gara, Marco arriva prima di Luca ma dopo Sara. Paolo arriva dopo Luca. Chi è arrivato secondo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Marco", "label": "A", "isCorrect": true },
+                        { "value": "Luca", "label": "B" },
+                        { "value": "Sara", "label": "C" },
+                        { "value": "Paolo", "label": "D" }
+                    ],
+                    "feedback": "Ordine: Sara (1°), Marco (2°), Luca (3°), Paolo (4°)."
+                },
+                {
+                    "title": "Domanda 3.2",
+                    "question": "Tutti i gatti hanno la coda. Alcuni animali con la coda sanno nuotare. Quale affermazione è necessariamente vera?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Tutti i gatti sanno nuotare", "label": "A" },
+                        { "value": "Alcuni gatti potrebbero saper nuotare", "label": "B", "isCorrect": true },
+                        { "value": "Nessun gatto sa nuotare", "label": "C" },
+                        { "value": "Solo i gatti hanno la coda", "label": "D" }
+                    ],
+                    "feedback": "È possibile che alcuni gatti sappiano nuotare, ma non è certo."
+                },
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Una candela impiega 45 minuti a bruciare completamente. Se accendo 5 candele contemporaneamente, quanto tempo ci vorrà perché brucino tutte?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "225 minuti", "label": "A" },
+                        { "value": "90 minuti", "label": "B" },
+                        { "value": "45 minuti", "label": "C", "isCorrect": true },
+                        { "value": "180 minuti", "label": "D" }
+                    ],
+                    "feedback": "Bruciano tutte contemporaneamente, quindi impiegano 45 minuti."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 4: Indovinelli Logici",
+            "description": "Pensa fuori dagli schemi!",
+            "questions": [
+                {
+                    "title": "Domanda 4.1",
+                    "question": "Un contadino deve attraversare un fiume con una barca che può portare solo lui più un altro oggetto. Ha con sé un lupo, una capra e un cavolo. Come può fare?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Porta prima il lupo, torna, porta la capra, riporta indietro il lupo, porta il cavolo, torna per il lupo",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Porta prima la capra, torna, porta il lupo, riporta indietro la capra, porta il cavolo, torna per la capra",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "Porta prima il cavolo, torna, porta il lupo, torna per la capra", "label": "C" },
+                        { "value": "È impossibile", "label": "D" }
+                    ],
+                    "feedback": "Bisogna evitare di lasciare mai insieme (sulla stessa sponda senza il contadino) il lupo + la capra o la capra + il cavolo. Portando prima la capra e facendo il ritorno intermedio con la capra quando necessario, si impedisce che uno venga mangiato."
+                },
+                {
+                    "title": "Domanda 4.2",
+                    "question": "Ho due monete che insieme fanno 30 centesimi. Una delle due NON è da 10 centesimi. Quali sono le due monete?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Due monete da 15 centesimi", "label": "A" },
+                        { "value": "Una da 20 e una da 10 centesimi", "label": "B", "isCorrect": true },
+                        { "value": "Una da 25 e una da 5 centesimi", "label": "C" },
+                        { "value": "È impossibile", "label": "D" }
+                    ],
+                    "feedback": "‘Una delle due NON è da 10’ significa che l’altra sì lo è!"
+                },
+                {
+                    "title": "Domanda 4.3",
+                    "question": "In una stanza buia ci sono 10 calze rosse e 10 calze blu. Quante calze devo prendere al minimo per essere sicuro di avere una coppia dello stesso colore?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "2", "label": "A" },
+                        { "value": "3", "label": "B", "isCorrect": true },
+                        { "value": "11", "label": "C" },
+                        { "value": "20", "label": "D" }
+                    ],
+                    "feedback": "Nel caso peggiore prendo una rossa e una blu; la terza sarà uguale a una delle prime due."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 5: Sillogismi",
+            "description": "Valuta la validità del ragionamento.",
+            "questions": [
+                {
+                    "title": "Domanda 5.1",
+                    "question": "Premessa 1: Tutti gli studenti che studiano prendono buoni voti. Premessa 2: Maria prende buoni voti. Conclusione: Maria studia.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Certamente vera", "label": "A" },
+                        { "value": "Certamente falsa", "label": "B" },
+                        { "value": "Non necessariamente vera", "label": "C", "isCorrect": true },
+                        { "value": "Contraddittoria", "label": "D" }
+                    ],
+                    "feedback": "Maria potrebbe prendere buoni voti anche senza studiare."
+                },
+                {
+                    "title": "Domanda 5.2",
+                    "question": "Premessa 1: Nessun pesce può volare. Premessa 2: Alcuni animali acquatici sono pesci. Conclusione: Alcuni animali acquatici non possono volare.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Certamente vera", "label": "A", "isCorrect": true },
+                        { "value": "Certamente falsa", "label": "B" },
+                        { "value": "Non necessariamente vera", "label": "C" },
+                        { "value": "Impossibile da determinare", "label": "D" }
+                    ],
+                    "feedback": "Se alcuni animali acquatici sono pesci e nessun pesce vola, la conclusione è certa."
+                },
+                {
+                    "title": "Domanda 5.3",
+                    "question": "Premessa 1: Chi si alza presto è più produttivo. Premessa 2: Luca non si alza presto. Conclusione: Luca non è produttivo.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Certamente vera", "label": "A" },
+                        { "value": "Certamente falsa", "label": "B" },
+                        { "value": "Non necessariamente vera", "label": "C", "isCorrect": true },
+                        { "value": "Parzialmente vera", "label": "D" }
+                    ],
+                    "feedback": "Luca potrebbe essere produttivo per altri motivi."
                 }
             ]
         }
-    ]
+    ],
+    "scoring": {
+        "ranges": [
+            { "min": 13, "max": 15, "feedback": "Eccellente! Logica molto sviluppata" },
+            { "min": 10, "max": 12, "feedback": "Ottimo livello" },
+            { "min": 7, "max": 9, "feedback": "Buon livello, continua ad esercitarti" },
+            { "min": 4, "max": 6, "feedback": "Livello sufficiente, serve più pratica" },
+            { "min": 0, "max": 3, "feedback": "Rivedi i concetti base di logica" }
+        ]
+    }
 }

@@ -74,15 +74,6 @@ const createGrading = (optionsData, feedback) => {
 };
 
 /**
- * Create question title with optional hint
- */
-const createQuestionTitle = (title, questionText, hint) => {
-    const baseTitle = `${title} - ${questionText}`;
-    const fullTitle = hint ? `${baseTitle} (💡 ${hint})` : baseTitle;
-    return fullTitle;
-};
-
-/**
  * Create choice question configuration
  */
 const createChoiceQuestion = (questionData) => {
@@ -101,14 +92,23 @@ const createChoiceQuestion = (questionData) => {
  * Build complete question item for Google Forms API
  */
 export const buildQuestion = (questionData) => {
-    const title = createQuestionTitle(questionData.title, questionData.question, questionData.hint);
-
     const choiceQuestion = createChoiceQuestion(questionData);
     const grading = createGrading(questionData.options, questionData.feedback);
     const isRequired = questionData.required !== false;
 
+    // Title: question number/identifier
+    const title = questionData.title;
+
+    // Description: the actual question text + hint
+    const descriptionParts = [questionData.question];
+    if (questionData.hint) {
+        descriptionParts.push(`\n💡 ${questionData.hint}`);
+    }
+    const description = descriptionParts.join("");
+
     const questionItem = {
         title,
+        description,
         questionItem: {
             question: {
                 required: isRequired,

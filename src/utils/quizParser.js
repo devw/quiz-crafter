@@ -44,10 +44,10 @@ const createTextItem = (title, description, location) => {
 /**
  * Create question item request
  */
-const createQuestionItem = (questionData, location) => {
+const createQuestionItem = (questionItemData, location) => {
     const request = {
         createItem: {
-            item: questionData,
+            item: questionItemData,
             location,
         },
     };

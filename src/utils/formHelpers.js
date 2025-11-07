@@ -51,3 +51,24 @@ export const createBatchUpdateParams = (formId, requestBody) => {
     };
     return params;
 };
+
+/**
+ * Create form with quiz title and description
+ * @param {Object} quiz - Quiz data
+ * @returns {Object} Request for forms.create()
+ */
+export const createQuizFormRequest = (quiz) => {
+    const title = quiz.title;
+    const description = quiz.description || "";
+
+    const request = {
+        requestBody: {
+            info: {
+                title,
+                documentTitle: title,
+            },
+        },
+    };
+
+    return request;
+};

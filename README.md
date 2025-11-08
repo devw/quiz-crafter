@@ -1,103 +1,69 @@
 # 📝 Quiz Crafter
 
-Automate Google Forms quiz creation from JSON via CLI with OAuth2 authentication.
+Automate Google Forms quiz creation from JSON files via CLI.
 
 ## ✨ Features
 
-- 📋 Create quizzes from JSON files
-- ✅ Multiple choice questions with grading
-- 💡 Support for hints and explanations
+- 📋 Create quizzes from JSON with automatic grading
+- 💡 Support for hints and answer explanations
 - 📁 Organize forms in Google Drive folders
-- 🔐 Secure OAuth2 authentication
+- 🔐 OAuth2 authentication (one-time setup)
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Prerequisites
-
-- Node.js v18+
-- Google Cloud Project with Forms API and Drive API enabled
-- OAuth2 credentials configured
-
-### 2. Install
+### 1. Install
 
 ```bash
 git clone <repo-url>
 cd quiz-crafter
 yarn install
-cp .env.example .env
 ```
 
-### 3. Setup Google Cloud
+### 2. Setup Google Cloud
 
-1. **Enable APIs**: [Forms API](https://console.cloud.google.com/apis/library/forms.googleapis.com) and [Drive API](https://console.cloud.google.com/apis/library/drive.googleapis.com)
-2. **Create OAuth2 credentials**:
-    - Go to [Credentials](https://console.cloud.google.com/apis/credentials)
-    - Create OAuth client ID → Web application
+1. Create project at [Google Cloud Console](https://console.cloud.google.com/)
+2. Enable [Forms API](https://console.cloud.google.com/apis/library/forms.googleapis.com) and [Drive API](https://console.cloud.google.com/apis/library/drive.googleapis.com)
+3. Create OAuth2 credentials (Web application)
     - Add redirect URI: `http://localhost:8080/oauth2callback`
-    - Download JSON credentials
-3. **Configure OAuth consent screen**:
-    - Add yourself as test user
-    - Set status to "Testing"
+    - Download credentials JSON
+4. Add yourself as test user in [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent)
 
-### 4. Configure `.env`
+### 3. Configure
 
 ```bash
-GOOGLE_OAUTH_CLIENT_SECRET=/path/to/client_secret.json
-GOOGLE_CLOUD_PROJECT=your-project-id
-GOOGLE_DRIVE_FOLDER_ID=your-folder-id  # Optional
+cp .env.example .env
+# Edit .env with your credentials path
 ```
 
 ---
 
-## 💻 Usage
+## 🎓 Create Your First Quiz
 
-### Create quiz from JSON
-
-```bash
-# Basic usage
-node src/createForm.js --quiz ./src/config/examples/sample-quiz.json
-
-# With specific Google Drive folder
-node src/createForm.js -q ./quiz.json -f 1R2gG0ztLSSTEjDdTrjFFlTi_FThPUtaM
-
-# Short flags
-node src/createForm.js -q quiz.json -f folder-id
-```
-
-**CLI Arguments:**
-
-- `--quiz, -q`: Path to quiz JSON file (required)
-- `--folder, -f`: Google Drive folder ID (optional, uses `.env` if not set)
-
-**Find folder ID:** Open folder in Drive, copy ID from URL: `drive.google.com/drive/folders/<ID>`
-
----
-
-## 📋 Quiz JSON Format
+### Step 1: Create JSON file (`my-quiz.json`)
 
 ```json
 {
-    "title": "My Quiz",
-    "description": "Quiz description",
+    "title": "Math Quiz",
+    "description": "Test your math skills",
     "sections": [
         {
-            "title": "Section 1",
-            "description": "Instructions",
+            "title": "Addition",
+            "description": "Solve these problems",
             "questions": [
                 {
                     "title": "Question 1",
-                    "question": "What is 2+2?",
-                    "hint": "Count on your fingers",
+                    "question": "What is 5 + 3?",
+                    "hint": "Use your fingers!",
                     "type": "MULTIPLE_CHOICE",
                     "required": true,
                     "options": [
-                        { "value": "3", "label": "A" },
-                        { "value": "4", "label": "B", "isCorrect": true },
-                        { "value": "5", "label": "C" }
+                        { "value": "7", "label": "A" },
+                        { "value": "8", "label": "B", "isCorrect": true },
+                        { "value": "9", "label": "C" }
                     ],
-                    "feedback": "2+2 equals 4"
+                    "feedback": "5 + 3 = 8"
                 }
             ]
         }
@@ -105,31 +71,78 @@ node src/createForm.js -q quiz.json -f folder-id
 }
 ```
 
-**Question types:** `MULTIPLE_CHOICE`, `CHECKBOX`, `DROPDOWN`
+### Step 2: Generate form
 
-See [examples](./src/config/examples/) for more.
+```bash
+node src/createForm.js --quiz my-quiz.json
+```
+
+**First time:** Browser opens → Sign in → Allow permissions → Done!
+
+**Output:**
+
+```
+✅ Form created successfully!
+🔗 Edit URL: https://docs.google.com/forms/d/.../edit
+```
+
+### Step 3: Open and share!
+
+Click the URL to view your form in Google Forms.
 
 ---
 
-## 📁 Project Structure
+## 💻 Usage
 
+```bash
+# Basic
+node src/createForm.js -q quiz.json
+
+# Save to specific folder
+node src/createForm.js -q quiz.json -f <folder-id>
+
+# Try example
+node src/createForm.js -q ./src/config/examples/sample-quiz.json
 ```
-quiz-crafter/
-├── src/
-│   ├── createForm.js          # Main entry point
-│   ├── authUser.js            # OAuth2 authentication
-│   ├── config/
-│   │   ├── quiz-schema.json   # JSON schema
-│   │   └── examples/          # Example quizzes
-│   └── utils/
-│       ├── quizLoader.js      # Load & validate JSON
-│       ├── quizParser.js      # Parse to Forms API
-│       ├── questionBuilder.js # Build questions
-│       ├── formHelpers.js     # API helpers
-│       ├── logger.js          # Logging utilities
-│       └── urlBuilder.js      # URL builders
-└── .env                       # Configuration (not committed)
-```
+
+**Get folder ID:** Open folder in Drive → Copy ID from URL: `drive.google.com/drive/folders/<ID>`
+
+---
+
+## 📋 JSON Format
+
+### Required fields
+
+- `title`: Quiz title
+- `sections[]`: Array of sections
+    - `title`: Section title
+    - `questions[]`: Array of questions
+        - `title`: Question identifier
+        - `question`: Question text
+        - `type`: `MULTIPLE_CHOICE`, `CHECKBOX`, or `DROPDOWN`
+        - `options[]`: Answer options
+            - `value`: Option text
+            - `label`: Option letter (A, B, C...)
+            - `isCorrect`: Mark correct answer(s)
+
+### Optional fields
+
+- `description`: Quiz/section description
+- `hint`: Question hint
+- `feedback`: Answer explanation
+- `required`: Make question mandatory (default: true)
+
+**See [examples](./src/config/examples/) for complete samples.**
+
+---
+
+## 🐛 Troubleshooting
+
+| Issue              | Solution                                                    |
+| ------------------ | ----------------------------------------------------------- |
+| Access blocked     | Add your email as test user in OAuth consent screen         |
+| Connection refused | Add `http://localhost:8080/oauth2callback` to redirect URIs |
+| Token expired      | `rm token.json` and run command again                       |
 
 ---
 
@@ -137,41 +150,29 @@ quiz-crafter/
 
 **Never commit:**
 
-- ❌ `token.json` - OAuth2 tokens
-- ❌ `.env` - Configuration
-- ❌ `client_secret_*.json` - Credentials
+- `token.json` - OAuth tokens
+- `.env` - Configuration
+- `client_secret_*.json` - Credentials
 
-Store credentials in `~/.config/` or secure vault.
-
----
-
-## 🐛 Troubleshooting
-
-### `Access blocked: app has not completed verification`
-
-→ Add your email as test user in [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent)
-
-### `ERR_CONNECTION_REFUSED`
-
-→ Add `http://localhost:8080/oauth2callback` to authorized redirect URIs
-
-### `Token expired`
-
-→ Delete token and re-authenticate: `rm token.json && node src/createForm.js -q quiz.json`
-
-### `Invalid grading`
-
-→ Fixed in latest version - quiz mode is enabled automatically
+Store credentials outside repository (e.g., `~/.config/`).
 
 ---
 
-## 🤝 Contributing
+## 📁 Project Structure
 
-1. Fork the repo
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m "feat: add amazing feature"`
-4. Push: `git push origin feature/amazing-feature`
-5. Open Pull Request
+```
+src/
+├── createForm.js          # CLI entry point
+├── authUser.js            # OAuth2 flow
+├── config/
+│   ├── quiz-schema.json   # JSON schema
+│   └── examples/          # Sample quizzes
+└── utils/
+    ├── quizLoader.js      # Validation
+    ├── quizParser.js      # API transformation
+    ├── questionBuilder.js # Question builder
+    └── ...
+```
 
 ---
 
@@ -181,4 +182,4 @@ MIT
 
 ---
 
-**Happy Form Crafting! 🎉**
+**Happy Crafting! 🎉**

@@ -1,0 +1,409 @@
+{
+    "title": "02 Quiz Logica - Livello Avanzato",
+    "description": "Test di logica, ragionamento e cultura generale per studenti di liceo. Include sequenze, analogie scientifiche, deduzione e problem solving.",
+    "sections": [
+        {
+            "title": "Sezione 1: Sequenze e Pattern",
+            "description": "Identifica il pattern e completa la sequenza con l'elemento corretto.",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "2, 3, 5, 7, 11, 13, ?",
+                    "hint": "Numeri speciali in matematica",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "15", "label": "A" },
+                        { "value": "17", "label": "B", "isCorrect": true },
+                        { "value": "19", "label": "C" },
+                        { "value": "21", "label": "D" }
+                    ],
+                    "feedback": "Sequenza dei numeri primi. Il prossimo primo dopo 13 è 17."
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "1, 1, 2, 3, 5, 8, 13, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "18", "label": "A" },
+                        { "value": "19", "label": "B" },
+                        { "value": "20", "label": "C" },
+                        { "value": "21", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Sequenza di Fibonacci: ogni numero è la somma dei due precedenti (8 + 13 = 21)."
+                },
+                {
+                    "title": "Domanda 1.10",
+                    "question": "1, 8, 27, 64, 125, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "196", "label": "A" },
+                        { "value": "200", "label": "B" },
+                        { "value": "216", "label": "C", "isCorrect": true },
+                        { "value": "225", "label": "D" }
+                    ],
+                    "feedback": "Cubi perfetti: 1³, 2³, 3³, 4³, 5³, quindi 6³=216."
+                },
+                {
+                    "title": "Domanda 1.4",
+                    "question": "1, 4, 9, 16, 25, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "30", "label": "A" },
+                        { "value": "32", "label": "B" },
+                        { "value": "35", "label": "C" },
+                        { "value": "36", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Quadrati perfetti: 1², 2², 3², 4², 5², quindi 6² = 36."
+                },
+                {
+                    "title": "Domanda 1.5",
+                    "question": "Z, Y, X, W, V, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "T", "label": "A" },
+                        { "value": "U", "label": "B", "isCorrect": true },
+                        { "value": "S", "label": "C" },
+                        { "value": "R", "label": "D" }
+                    ],
+                    "feedback": "Alfabeto all'indietro: la lettera successiva è U."
+                },
+                {
+                    "title": "Domanda 1.6",
+                    "question": "Lunedì, Mercoledì, Venerdì, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Sabato", "label": "A" },
+                        { "value": "Domenica", "label": "B", "isCorrect": true },
+                        { "value": "Martedì", "label": "C" },
+                        { "value": "Giovedì", "label": "D" }
+                    ],
+                    "feedback": "Giorni della settimana alternati: dopo Venerdì (+2 giorni) viene Domenica."
+                },
+                {
+                    "title": "Domanda 1.7",
+                    "question": "Gennaio, Marzo, Maggio, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Giugno", "label": "A" },
+                        { "value": "Luglio", "label": "B", "isCorrect": true },
+                        { "value": "Agosto", "label": "C" },
+                        { "value": "Settembre", "label": "D" }
+                    ],
+                    "feedback": "Mesi dispari dell'anno: 1°, 3°, 5°, quindi il 7° è Luglio."
+                },
+                {
+                    "title": "Domanda 1.8",
+                    "question": "3, 6, 9, 12, 15, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "16", "label": "A" },
+                        { "value": "17", "label": "B" },
+                        { "value": "18", "label": "C", "isCorrect": true },
+                        { "value": "21", "label": "D" }
+                    ],
+                    "feedback": "Multipli di 3: si aggiunge 3 ogni volta."
+                },
+                {
+                    "title": "Domanda 1.9",
+                    "question": "A1, B2, C3, D4, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "E4", "label": "A" },
+                        { "value": "E5", "label": "B", "isCorrect": true },
+                        { "value": "F5", "label": "C" },
+                        { "value": "D5", "label": "D" }
+                    ],
+                    "feedback": "Lettera progressiva + numero corrispondente: E è la 5ª lettera."
+                },
+                {
+                    "title": "Domanda 1.10",
+                    "question": "10, 20, 15, 30, 25, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "35", "label": "A" },
+                        { "value": "40", "label": "B" },
+                        { "value": "50", "label": "C", "isCorrect": true },
+                        { "value": "55", "label": "D" }
+                    ],
+                    "feedback": "Pattern alternato: ×2, -5, ×2, -5... quindi 25 × 2 = 50."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: Analogie e Relazioni",
+            "description": "Identifica relazioni logiche tra concetti di scienze, storia e geografia.",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "ELETTRONE sta a ATOMO come PIANETA sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Stella", "label": "A" },
+                        { "value": "Sistema solare", "label": "B", "isCorrect": true },
+                        { "value": "Galassia", "label": "C" },
+                        { "value": "Universo", "label": "D" }
+                    ],
+                    "feedback": "L'elettrone orbita nell'atomo, il pianeta orbita nel sistema solare. Relazione: componente orbitante → sistema."
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "CUORE sta a SISTEMA CIRCOLATORIO come POLMONI sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Sistema nervoso", "label": "A" },
+                        { "value": "Sistema respiratorio", "label": "B", "isCorrect": true },
+                        { "value": "Sistema digerente", "label": "C" },
+                        { "value": "Sistema scheletrico", "label": "D" }
+                    ],
+                    "feedback": "Il cuore è l'organo principale del sistema circolatorio, i polmoni del sistema respiratorio."
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "DNA sta a NUCLEO come RIBOSOMI stanno a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Mitocondri", "label": "A" },
+                        { "value": "Citoplasma", "label": "B", "isCorrect": true },
+                        { "value": "Membrana cellulare", "label": "C" },
+                        { "value": "Lisosomi", "label": "D" }
+                    ],
+                    "feedback": "Il DNA si trova nel nucleo, i ribosomi si trovano nel citoplasma."
+                },
+                {
+                    "title": "Domanda 2.4",
+                    "question": "ROMA sta a ITALIA come PARIGI sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Spagna", "label": "A" },
+                        { "value": "Francia", "label": "B", "isCorrect": true },
+                        { "value": "Germania", "label": "C" },
+                        { "value": "Inghilterra", "label": "D" }
+                    ],
+                    "feedback": "Roma è la capitale d'Italia, Parigi è la capitale della Francia."
+                },
+                {
+                    "title": "Domanda 2.5",
+                    "question": "PROTONE sta a CARICA POSITIVA come NEUTRONE sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Carica negativa", "label": "A" },
+                        { "value": "Carica neutra", "label": "B", "isCorrect": true },
+                        { "value": "Carica doppia", "label": "C" },
+                        { "value": "Nessuna massa", "label": "D" }
+                    ],
+                    "feedback": "Il protone ha carica positiva, il neutrone ha carica neutra (nessuna carica)."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 3: Deduzione Logica",
+            "description": "Applica il ragionamento logico per risolvere problemi.",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "Se piove, il terreno è bagnato. Il terreno è asciutto. Cosa possiamo concludere?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Non piove", "label": "A", "isCorrect": true },
+                        { "value": "Piove", "label": "B" },
+                        { "value": "Potrebbe piovere", "label": "C" },
+                        { "value": "Non si può concludere nulla", "label": "D" }
+                    ],
+                    "feedback": "Logica deduttiva: se piove→terreno bagnato, e il terreno è asciutto, allora non piove."
+                },
+                {
+                    "title": "Domanda 3.2",
+                    "question": "In una gara: Anna arriva prima di Bruno, Bruno arriva prima di Carlo, Carlo arriva prima di Diana. Chi arriva terzo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Anna", "label": "A" },
+                        { "value": "Bruno", "label": "B" },
+                        { "value": "Carlo", "label": "C", "isCorrect": true },
+                        { "value": "Diana", "label": "D" }
+                    ],
+                    "feedback": "Ordine: Anna (1ª), Bruno (2°), Carlo (3°), Diana (4ª)."
+                },
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Tutti i mammiferi hanno polmoni. Il delfino ha polmoni. Il delfino è un mammifero?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Sì, certamente", "label": "A" },
+                        { "value": "No, certamente", "label": "B" },
+                        { "value": "Possibilmente sì, ma non è certo", "label": "C", "isCorrect": true },
+                        { "value": "È una contraddizione", "label": "D" }
+                    ],
+                    "feedback": "Avere polmoni è condizione necessaria ma non sufficiente per essere mammifero. Altri animali potrebbero avere polmoni."
+                },
+                {
+                    "title": "Domanda 3.4",
+                    "question": "In un gruppo di 30 studenti: 18 studiano inglese, 15 studiano francese, 8 studiano entrambe. Quanti non studiano nessuna delle due lingue?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "3", "label": "A" },
+                        { "value": "5", "label": "B", "isCorrect": true },
+                        { "value": "7", "label": "C" },
+                        { "value": "10", "label": "D" }
+                    ],
+                    "feedback": "Chi studia almeno una lingua: 18 + 15 - 8 = 25. Quindi 30 - 25 = 5 non studiano nessuna delle due."
+                },
+                {
+                    "title": "Domanda 3.5",
+                    "question": "Ho due contenitori: uno contiene 5 litri d'acqua, l'altro 3 litri. Come posso ottenere esattamente 4 litri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Riempio il contenitore da 5 litri e verso nel contenitore da 3 litri fino a riempirlo",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Riempio entrambi e verso 1 litro", "label": "B" },
+                        { "value": "È impossibile", "label": "C" },
+                        { "value": "Riempio il contenitore da 3 litri due volte meno 2 litri", "label": "D" }
+                    ],
+                    "feedback": "Riempio il contenitore da 5L, verso nel contenitore da 3L finché è pieno, rimangono 2L nel contenitore da 5L. Svuoto il 3L, verso i 2L nel 3L, riempio di nuovo il 5L e verso 1L nel 3L (che aveva già 2L). Rimangono 4L nel contenitore da 5L."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 4: Problem Solving",
+            "description": "Risolvi problemi complessi pensando in modo creativo.",
+            "questions": [
+                {
+                    "title": "Domanda 4.1",
+                    "question": "Un esploratore deve attraversare un fiume. Può portare con sé sulla barca solo un elemento alla volta oltre a se stesso. Ha una volpe, una gallina e un sacco di grano. La volpe non deve restare sola con la gallina, la gallina non deve restare sola col grano. Come attraversa?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Porta la gallina, torna, porta la volpe, riporta la gallina, porta il grano, torna per la gallina",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Porta il grano, torna, porta la gallina, torna per la volpe", "label": "B" },
+                        { "value": "Porta la volpe, torna, porta la gallina, torna per il grano", "label": "C" },
+                        { "value": "È impossibile", "label": "D" }
+                    ],
+                    "feedback": "Strategia: porta la gallina (elemento problematico con entrambi), poi fa viaggi di scambio riportandola indietro quando necessario."
+                },
+                {
+                    "title": "Domanda 4.2",
+                    "question": "Ho due monete che insieme valgono 30 centesimi. Una delle due NON è da 10 centesimi. Quali sono?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Due da 15 centesimi", "label": "A" },
+                        { "value": "Una da 20 e una da 10 centesimi", "label": "B", "isCorrect": true },
+                        { "value": "Una da 25 e una da 5 centesimi", "label": "C" },
+                        { "value": "È impossibile", "label": "D" }
+                    ],
+                    "feedback": "Attenzione alla formulazione: 'UNA delle due NON è da 10' significa che l'ALTRA SÌ lo è!"
+                },
+                {
+                    "title": "Domanda 4.3",
+                    "question": "In un cassetto buio ci sono 10 calzini neri e 10 calzini bianchi, tutti mescolati. Quanti calzini devo prendere al minimo per essere certo di avere un paio dello stesso colore?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "2", "label": "A" },
+                        { "value": "3", "label": "B", "isCorrect": true },
+                        { "value": "11", "label": "C" },
+                        { "value": "20", "label": "D" }
+                    ],
+                    "feedback": "Nel caso peggiore: primo nero, secondo bianco. Il terzo sarà sicuramente uguale a uno dei primi due."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 5: Sillogismi e Validità Logica",
+            "description": "Valuta se le conclusioni derivano logicamente dalle premesse.",
+            "questions": [
+                {
+                    "title": "Domanda 5.1",
+                    "question": "Premessa 1: Tutti i metalli conducono elettricità. Premessa 2: Il rame è un metallo. Conclusione: Il rame conduce elettricità.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Conclusione valida e vera", "label": "A", "isCorrect": true },
+                        { "value": "Conclusione valida ma falsa", "label": "B" },
+                        { "value": "Conclusione invalida", "label": "C" },
+                        { "value": "Impossibile da determinare", "label": "D" }
+                    ],
+                    "feedback": "Sillogismo valido: tutti gli M conducono, C è M, quindi C conduce. Forma logica corretta."
+                },
+                {
+                    "title": "Domanda 5.2",
+                    "question": "Premessa 1: Nessun pianeta gassoso ha superficie solida. Premessa 2: Giove è un pianeta gassoso. Conclusione: Giove non ha superficie solida.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Conclusione valida e vera", "label": "A", "isCorrect": true },
+                        { "value": "Conclusione valida ma falsa", "label": "B" },
+                        { "value": "Conclusione invalida", "label": "C" },
+                        { "value": "Tautologia", "label": "D" }
+                    ],
+                    "feedback": "Sillogismo valido: nessun G ha S, J è G, quindi J non ha S. Ragionamento corretto."
+                },
+                {
+                    "title": "Domanda 5.3",
+                    "question": "Premessa 1: Chi studia ottiene buoni risultati. Premessa 2: Marco ottiene buoni risultati. Conclusione: Marco studia.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Conclusione valida", "label": "A" },
+                        { "value": "Conclusione invalida - fallacia logica", "label": "B", "isCorrect": true },
+                        { "value": "Conclusione parzialmente valida", "label": "C" },
+                        { "value": "Tautologia", "label": "D" }
+                    ],
+                    "feedback": "Fallacia: da 'se A allora B' e 'B è vero', NON possiamo concludere 'A è vero'. Marco potrebbe ottenere buoni risultati per altri motivi."
+                },
+                {
+                    "title": "Domanda 5.4",
+                    "question": "Premessa 1: Tutti i vertebrati hanno colonna vertebrale. Premessa 2: Alcuni animali sono vertebrati. Conclusione: Alcuni animali hanno colonna vertebrale.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Conclusione valida", "label": "A", "isCorrect": true },
+                        { "value": "Conclusione invalida", "label": "B" },
+                        { "value": "Informazione insufficiente", "label": "C" },
+                        { "value": "Contraddittoria", "label": "D" }
+                    ],
+                    "feedback": "Sillogismo valido: tutti i V hanno C, alcuni A sono V, quindi alcuni A hanno C."
+                },
+                {
+                    "title": "Domanda 5.5",
+                    "question": "Premessa 1: Se c'è fotosintesi, allora c'è presenza di clorofilla. Premessa 2: Questa pianta ha clorofilla. Conclusione: Questa pianta fa fotosintesi.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Conclusione valida", "label": "A" },
+                        { "value": "Conclusione invalida - fallacia", "label": "B", "isCorrect": true },
+                        { "value": "Conclusione necessariamente vera", "label": "C" },
+                        { "value": "Sillogismo corretto", "label": "D" }
+                    ],
+                    "feedback": "Fallacia: da 'se A allora B' e 'B', non possiamo dedurre 'A'. La clorofilla è necessaria ma potrebbe non essere attiva."
+                }
+            ]
+        }
+    ]
+}

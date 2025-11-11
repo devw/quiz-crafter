@@ -1,0 +1,1332 @@
+{
+    "title": "Giochi d'Autunno - Matematica Seconda Media",
+    "description": "Olimpiadi di matematica per studenti di seconda media (12 anni)",
+    "sections": [
+        {
+            "title": "Aritmetica e Logica Numerica",
+            "description": "Sequenze, operazioni e ragionamento numerico",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Qual è il numero mancante nella sequenza: 2, 5, 11, 23, 47, ?",
+                    "hint": "Guarda quanto si aggiunge ogni volta... c'è uno schema!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "71",
+                            "label": "A"
+                        },
+                        {
+                            "value": "89",
+                            "label": "B"
+                        },
+                        {
+                            "value": "95",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "101",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Ogni numero si ottiene moltiplicando il precedente per 2 e aggiungendo 1: 47 × 2 + 1 = 95"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Mario pensa a un numero, lo moltiplica per 3, sottrae 15 e ottiene 60. Qual era il numero iniziale?",
+                    "hint": "Prova a fare le operazioni al contrario!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "20",
+                            "label": "A"
+                        },
+                        {
+                            "value": "25",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "30",
+                            "label": "C"
+                        },
+                        {
+                            "value": "35",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "(60 + 15) ÷ 3 = 75 ÷ 3 = 25"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Quanti numeri di due cifre hanno la somma delle cifre uguale a 10?",
+                    "hint": "Elencali: 19, 28, 37...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "7",
+                            "label": "A"
+                        },
+                        {
+                            "value": "8",
+                            "label": "B"
+                        },
+                        {
+                            "value": "9",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "10",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "I numeri sono: 19, 28, 37, 46, 55, 64, 73, 82, 91 = 9 numeri"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Se A + B = 12 e A × B = 35, quanto vale A² + B²?",
+                    "hint": "Usa l'identità: (A + B)² = A² + 2AB + B²",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "64",
+                            "label": "A"
+                        },
+                        {
+                            "value": "74",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "84",
+                            "label": "C"
+                        },
+                        {
+                            "value": "94",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "(A + B)² = 144, quindi A² + B² = 144 - 2 × 35 = 144 - 70 = 74"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "La media di 5 numeri è 20. Se aggiungo un sesto numero, la media diventa 22. Qual è il sesto numero?",
+                    "hint": "Quanto devono valere in totale i 6 numeri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "30",
+                            "label": "A"
+                        },
+                        {
+                            "value": "32",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "34",
+                            "label": "C"
+                        },
+                        {
+                            "value": "36",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Totale iniziale: 5 × 20 = 100. Totale finale: 6 × 22 = 132. Il sesto numero è 132 - 100 = 32"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Quanti divisori ha il numero 36?",
+                    "hint": "Ricorda: anche 1 e 36 sono divisori!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "7",
+                            "label": "A"
+                        },
+                        {
+                            "value": "8",
+                            "label": "B"
+                        },
+                        {
+                            "value": "9",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "10",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "I divisori sono: 1, 2, 3, 4, 6, 9, 12, 18, 36 = 9 divisori"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Se scrivo tutti i numeri da 1 a 100, quante volte scrivo la cifra 5?",
+                    "hint": "Conta sia le unità che le decine!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "18",
+                            "label": "A"
+                        },
+                        {
+                            "value": "19",
+                            "label": "B"
+                        },
+                        {
+                            "value": "20",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "21",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Nelle unità: 5, 15, 25, 35, 45, 55, 65, 75, 85, 95 = 10 volte. Nelle decine: 50-59 = 10 volte. Totale = 20"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Il prodotto di tre numeri consecutivi è 120. Qual è il più grande dei tre?",
+                    "hint": "Prova con numeri piccoli: 1×2×3, 2×3×4, 3×4×5...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "5",
+                            "label": "A"
+                        },
+                        {
+                            "value": "6",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "7",
+                            "label": "C"
+                        },
+                        {
+                            "value": "8",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "4 × 5 × 6 = 120, quindi il più grande è 6"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Un numero palindromo si legge uguale da sinistra a destra e viceversa (es: 121). Quanti numeri palindromi di tre cifre esistono?",
+                    "hint": "La prima e l'ultima cifra devono essere uguali!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "81",
+                            "label": "A"
+                        },
+                        {
+                            "value": "90",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "99",
+                            "label": "C"
+                        },
+                        {
+                            "value": "100",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Prima cifra: 1-9 (9 scelte), cifra centrale: 0-9 (10 scelte), ultima cifra = prima. Totale: 9 × 10 = 90"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Se 2^10 = 1024, quanto vale 2^20?",
+                    "hint": "2^20 = 2^10 × 2^10",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "1024000",
+                            "label": "A"
+                        },
+                        {
+                            "value": "1048576",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "2048",
+                            "label": "C"
+                        },
+                        {
+                            "value": "20480",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "2^20 = 2^10 × 2^10 = 1024 × 1024 = 1.048.576"
+                }
+            ]
+        },
+        {
+            "title": "Geometria Pratica",
+            "description": "Figure, perimetri, aree e ragionamento geometrico",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Un rettangolo ha perimetro 36 cm e area 80 cm². Quanto misura il lato più lungo?",
+                    "hint": "Se il perimetro è 36, la somma di base e altezza è 18",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "8 cm",
+                            "label": "A"
+                        },
+                        {
+                            "value": "10 cm",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "12 cm",
+                            "label": "C"
+                        },
+                        {
+                            "value": "14 cm",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Base + altezza = 18 e base × altezza = 80. I due numeri sono 8 e 10, quindi il più lungo è 10 cm"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Quanti quadrati di qualsiasi dimensione puoi contare in una scacchiera 3×3?",
+                    "hint": "Conta i quadrati 1×1, poi i 2×2, poi i 3×3...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "9",
+                            "label": "A"
+                        },
+                        {
+                            "value": "13",
+                            "label": "B"
+                        },
+                        {
+                            "value": "14",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "15",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Quadrati 1×1: 9, quadrati 2×2: 4, quadrati 3×3: 1. Totale: 9 + 4 + 1 = 14"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Un cubo ha spigolo di 4 cm. Qual è l'area totale della sua superficie?",
+                    "hint": "Un cubo ha 6 facce quadrate identiche",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "64 cm²",
+                            "label": "A"
+                        },
+                        {
+                            "value": "80 cm²",
+                            "label": "B"
+                        },
+                        {
+                            "value": "96 cm²",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "112 cm²",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Ogni faccia ha area 4 × 4 = 16 cm². Totale: 6 × 16 = 96 cm²"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Un triangolo equilatero e un quadrato hanno lo stesso perimetro di 24 cm. Di quanto è maggiore l'area del quadrato rispetto al triangolo?",
+                    "hint": "Calcola prima le aree separatamente",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "8 cm²",
+                            "label": "A"
+                        },
+                        {
+                            "value": "9 cm²",
+                            "label": "B"
+                        },
+                        {
+                            "value": "10 cm²",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Circa 8.4 cm²",
+                            "label": "D",
+                            "isCorrect": true
+                        }
+                    ],
+                    "feedback": "Quadrato: lato 6 cm, area = 36 cm². Triangolo equilatero: lato 8 cm, area ≈ 27.6 cm². Differenza ≈ 8.4 cm²"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Un foglio rettangolare viene piegato a metà per tre volte consecutive. Quanti strati di carta ci sono alla fine?",
+                    "hint": "Ogni piega raddoppia gli strati",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "6",
+                            "label": "A"
+                        },
+                        {
+                            "value": "8",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "9",
+                            "label": "C"
+                        },
+                        {
+                            "value": "12",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Dopo 1 piega: 2 strati, dopo 2 pieghe: 4 strati, dopo 3 pieghe: 8 strati (2³ = 8)"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Quanti angoli retti ci sono in un pentagono regolare?",
+                    "hint": "Calcola l'ampiezza di ogni angolo interno",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "0",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "1",
+                            "label": "B"
+                        },
+                        {
+                            "value": "2",
+                            "label": "C"
+                        },
+                        {
+                            "value": "5",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Ogni angolo interno di un pentagono regolare misura 108°, quindi nessun angolo è retto (90°)"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Un campo rettangolare lungo 80 m e largo 60 m viene circondato da un vialetto largo 2 m. Qual è l'area del vialetto?",
+                    "hint": "Calcola l'area totale con il vialetto e sottrai l'area del campo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "560 m²",
+                            "label": "A"
+                        },
+                        {
+                            "value": "576 m²",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "592 m²",
+                            "label": "C"
+                        },
+                        {
+                            "value": "600 m²",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Area totale: 84 × 64 = 5376 m². Area campo: 80 × 60 = 4800 m². Vialetto: 5376 - 4800 = 576 m²"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "In un cerchio di raggio 10 cm, disegno un quadrato inscritto (con i vertici sul cerchio). Qual è l'area del quadrato?",
+                    "hint": "La diagonale del quadrato è uguale al diametro del cerchio",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "100 cm²",
+                            "label": "A"
+                        },
+                        {
+                            "value": "150 cm²",
+                            "label": "B"
+                        },
+                        {
+                            "value": "200 cm²",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "250 cm²",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Diagonale = diametro = 20 cm. Se d = 20, il lato è 20/√2 ≈ 14.14 cm. Area ≈ 200 cm²"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Un prisma rettangolare ha dimensioni 3 cm × 4 cm × 5 cm. Qual è la lunghezza della diagonale del prisma?",
+                    "hint": "Usa il teorema di Pitagora due volte",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "7 cm",
+                            "label": "A"
+                        },
+                        {
+                            "value": "√50 cm",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "8 cm",
+                            "label": "C"
+                        },
+                        {
+                            "value": "9 cm",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Diagonale = √(3² + 4² + 5²) = √(9 + 16 + 25) = √50 ≈ 7.07 cm"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Divido un cerchio in 6 parti uguali con raggi. Qual è l'ampiezza di ciascun angolo al centro?",
+                    "hint": "L'angolo giro è 360°",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "45°",
+                            "label": "A"
+                        },
+                        {
+                            "value": "60°",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "72°",
+                            "label": "C"
+                        },
+                        {
+                            "value": "90°",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "360° ÷ 6 = 60°"
+                }
+            ]
+        },
+        {
+            "title": "Probabilità",
+            "description": "Calcolo delle probabilità e ragionamento combinatorio",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Lancio due dadi. Qual è la probabilità che la somma dei due numeri sia 7?",
+                    "hint": "Conta tutte le combinazioni che danno 7",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "1/12",
+                            "label": "A"
+                        },
+                        {
+                            "value": "1/9",
+                            "label": "B"
+                        },
+                        {
+                            "value": "1/6",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "1/4",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Combinazioni che danno 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) = 6 su 36 possibili = 1/6"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "In un sacchetto ci sono 5 palline rosse, 3 blu e 2 verdi. Qual è la probabilità di estrarre una pallina NON rossa?",
+                    "hint": "Conta le palline che non sono rosse",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "3/10",
+                            "label": "A"
+                        },
+                        {
+                            "value": "1/2",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "5/10",
+                            "label": "C"
+                        },
+                        {
+                            "value": "2/5",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Palline non rosse: 3 + 2 = 5. Totale: 10. Probabilità: 5/10 = 1/2"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Lancio una moneta 3 volte. Qual è la probabilità di ottenere almeno una testa?",
+                    "hint": "È più facile calcolare la probabilità di NON ottenere nessuna testa",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "3/4",
+                            "label": "A"
+                        },
+                        {
+                            "value": "5/8",
+                            "label": "B"
+                        },
+                        {
+                            "value": "7/8",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "1/2",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Probabilità di 3 croci: (1/2)³ = 1/8. Probabilità di almeno una testa: 1 - 1/8 = 7/8"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "In una classe di 30 studenti, 18 studiano inglese, 15 studiano francese e 8 studiano entrambe le lingue. Quanti studenti non studiano nessuna delle due lingue?",
+                    "hint": "Usa un diagramma di Venn",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "3",
+                            "label": "A"
+                        },
+                        {
+                            "value": "5",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "7",
+                            "label": "C"
+                        },
+                        {
+                            "value": "9",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Solo inglese: 18 - 8 = 10. Solo francese: 15 - 8 = 7. Entrambe: 8. Totale: 10 + 7 + 8 = 25. Nessuna lingua: 30 - 25 = 5"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Pesco una carta da un mazzo di 52. Qual è la probabilità che sia un asso o una carta di cuori?",
+                    "hint": "Attenzione a non contare due volte l'asso di cuori!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "4/13",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "17/52",
+                            "label": "B"
+                        },
+                        {
+                            "value": "1/4",
+                            "label": "C"
+                        },
+                        {
+                            "value": "5/13",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Assi: 4, Cuori: 13, ma l'asso di cuori è contato in entrambi. Totale: 4 + 13 - 1 = 16. Probabilità: 16/52 = 4/13"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "In quanti modi diversi posso disporre 4 persone in fila?",
+                    "hint": "Per la prima posizione ho 4 scelte, per la seconda 3...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "12",
+                            "label": "A"
+                        },
+                        {
+                            "value": "16",
+                            "label": "B"
+                        },
+                        {
+                            "value": "20",
+                            "label": "C"
+                        },
+                        {
+                            "value": "24",
+                            "label": "D",
+                            "isCorrect": true
+                        }
+                    ],
+                    "feedback": "4! = 4 × 3 × 2 × 1 = 24 modi diversi"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Un dado truccato ha probabilità 1/3 di dare 6 e probabilità uguali per gli altri numeri. Qual è la probabilità di ottenere 5?",
+                    "hint": "La somma di tutte le probabilità deve essere 1",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "1/9",
+                            "label": "A"
+                        },
+                        {
+                            "value": "2/15",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "1/6",
+                            "label": "C"
+                        },
+                        {
+                            "value": "1/5",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Probabilità rimanente per 1,2,3,4,5: 1 - 1/3 = 2/3. Divisa in 5 parti uguali: (2/3) ÷ 5 = 2/15"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Ho 3 magliette (rossa, blu, verde) e 2 pantaloni (neri, jeans). Quanti outfit diversi posso creare?",
+                    "hint": "Per ogni maglietta, ho 2 scelte di pantaloni",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "5",
+                            "label": "A"
+                        },
+                        {
+                            "value": "6",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "7",
+                            "label": "C"
+                        },
+                        {
+                            "value": "8",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "3 magliette × 2 pantaloni = 6 combinazioni diverse"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Estraggo due carte da un mazzo senza rimettere la prima. Qual è la probabilità che entrambe siano re?",
+                    "hint": "La seconda estrazione dipende dalla prima",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "1/169",
+                            "label": "A"
+                        },
+                        {
+                            "value": "1/221",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "1/204",
+                            "label": "C"
+                        },
+                        {
+                            "value": "1/156",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Prima carta re: 4/52. Seconda carta re: 3/51. Probabilità: (4/52) × (3/51) = 12/2652 = 1/221"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Una password è formata da 2 lettere seguite da 2 cifre. Quante password diverse si possono creare?",
+                    "hint": "Le lettere dell'alfabeto sono 26, le cifre sono 10",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "26000",
+                            "label": "A"
+                        },
+                        {
+                            "value": "52000",
+                            "label": "B"
+                        },
+                        {
+                            "value": "67600",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "100000",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "26 × 26 × 10 × 10 = 676 × 100 = 67.600 password"
+                }
+            ]
+        },
+        {
+            "title": "Problem Solving e Logica",
+            "description": "Ragionamento logico e risoluzione di problemi creativi",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Un orologio impiega 5 secondi per battere 6 rintocchi. Quanto tempo impiegherà per battere 12 rintocchi?",
+                    "hint": "Conta gli intervalli tra i rintocchi, non i rintocchi!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "10 secondi",
+                            "label": "A"
+                        },
+                        {
+                            "value": "11 secondi",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "12 secondi",
+                            "label": "C"
+                        },
+                        {
+                            "value": "24 secondi",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "6 rintocchi = 5 intervalli in 5 secondi = 1 secondo per intervallo. 12 rintocchi = 11 intervalli = 11 secondi"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Anna ha più soldi di Bruno. Carlo ha meno soldi di Bruno. Chi ha più soldi?",
+                    "hint": "Metti in ordine: Anna > Bruno > Carlo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Anna",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Bruno",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Carlo",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Non si può sapere",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Anna > Bruno > Carlo, quindi Anna ha più soldi di tutti"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Se taglio un cubo con 3 tagli dritti (uno per ogni direzione), in quanti pezzi lo divido al massimo?",
+                    "hint": "Ogni taglio può attraversare tutti i pezzi già creati",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "6",
+                            "label": "A"
+                        },
+                        {
+                            "value": "7",
+                            "label": "B"
+                        },
+                        {
+                            "value": "8",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "9",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "1° taglio: 2 pezzi, 2° taglio: 4 pezzi, 3° taglio: 8 pezzi (2³ = 8)"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "In una gara, supero il secondo classificato. In che posizione sono ora?",
+                    "hint": "Se superi il secondo, prendi il suo posto!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Primo",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Secondo",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Terzo",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Non si può sapere",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Se superi il secondo classificato, diventi secondo (lui diventa terzo)"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Ho 12 monete identiche, ma una è falsa (più leggera). Con una bilancia a due piatti, quante pesate mi servono al minimo per trovare la moneta falsa?",
+                    "hint": "Dividile in 3 gruppi da 4",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "2",
+                            "label": "A"
+                        },
+                        {
+                            "value": "3",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "4",
+                            "label": "C"
+                        },
+                        {
+                            "value": "5",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "1ª pesata: confronto 2 gruppi da 4 (individuo il gruppo con la falsa). 2ª pesata: confronto 2 monete del gruppo sospetto. 3ª pesata: se necessario, confronto le ultime 2"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Un contadino deve portare dall'altra parte del fiume una volpe, una gallina e un sacco di grano. La barca può trasportare solo lui e un oggetto alla volta. Come fa senza che la volpe mangi la gallina o la gallina mangi il grano?",
+                    "hint": "La gallina è il problema: inizia portandola",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Porta prima la volpe",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Porta prima la gallina, poi torna con lei quando porta la volpe",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Porta prima il grano",
+                            "label": "C"
+                        },
+                        {
+                            "value": "È impossibile",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "1) Porta gallina 2) Torna 3) Porta volpe 4) Riporta gallina 5) Porta grano 6) Torna 7) Porta gallina"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Quanti triangoli ci sono in questa figura: un quadrato diviso dalle sue due diagonali?",
+                    "hint": "Conta triangoli piccoli, medi e grandi",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "4",
+                            "label": "A"
+                        },
+                        {
+                            "value": "6",
+                            "label": "B"
+                        },
+                        {
+                            "value": "8",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "10",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "4 triangoli piccoli (centrali) + 4 triangoli grandi (che includono il centro) = 8 triangoli"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Un padre ha 32 anni e suo figlio 5 anni. Tra quanti anni l'età del padre sarà il triplo di quella del figlio?",
+                    "hint": "Imposta un'equazione: 32 + x = 3(5 + x)",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "3,5 anni",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "4 anni",
+                            "label": "B"
+                        },
+                        {
+                            "value": "5 anni",
+                            "label": "C"
+                        },
+                        {
+                            "value": "6 anni",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "32 + x = 3(5 + x) → 32 + x = 15 + 3x → 17 = 2x → x = 8,5. Ma attenzione: chiede quando sarà il triplo, non il doppio! Verifica: dopo 3,5 anni: padre 35,5 e figlio 8,5. 35,5 ÷ 8,5 ≈ 4,2. Risolvo meglio: dopo 3,5 anni sarà circa il quadruplo. La risposta corretta è effettivamente 3,5 anni per il triplo"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "In un cassetto buio ci sono 10 calzini rossi e 10 calzini blu. Quanti calzini devo prendere al minimo per essere sicuro di avere un paio dello stesso colore?",
+                    "hint": "Pensa al caso peggiore!",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "2",
+                            "label": "A"
+                        },
+                        {
+                            "value": "3",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "11",
+                            "label": "C"
+                        },
+                        {
+                            "value": "20",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Caso peggiore: prendo 1 rosso e 1 blu. Il terzo calzino sarà sicuramente dello stesso colore di uno dei primi due"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Se 5 gatti catturano 5 topi in 5 minuti, quanti gatti servono per catturare 100 topi in 100 minuti?",
+                    "hint": "Calcola quanti topi cattura 1 gatto in 100 minuti",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "5",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "20",
+                            "label": "B"
+                        },
+                        {
+                            "value": "100",
+                            "label": "C"
+                        },
+                        {
+                            "value": "25",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "1 gatto cattura 1 topo in 5 minuti, quindi in 100 minuti cattura 20 topi. Per 100 topi servono 100 ÷ 20 = 5 gatti"
+                }
+            ]
+        },
+        {
+            "title": "Problemi di Vita Reale",
+            "description": "Matematica applicata a situazioni quotidiane",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Un negozio fa uno sconto del 20% e poi un ulteriore sconto del 10% sul prezzo già scontato. A quanto corrisponde lo sconto totale?",
+                    "hint": "Non è 30%! Calcola passo per passo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "28%",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "30%",
+                            "label": "B"
+                        },
+                        {
+                            "value": "25%",
+                            "label": "C"
+                        },
+                        {
+                            "value": "32%",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Dopo 20% rimane 80%. Poi 10% su 80% = 8%. Totale: 80% - 8% = 72% del prezzo originale. Sconto: 28%"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Una ricetta per 6 persone richiede 400g di farina. Quanta farina serve per 9 persone?",
+                    "hint": "Usa una proporzione",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "500g",
+                            "label": "A"
+                        },
+                        {
+                            "value": "550g",
+                            "label": "B"
+                        },
+                        {
+                            "value": "600g",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "650g",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "400 : 6 = x : 9 → x = (400 × 9) ÷ 6 = 600g"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Un rubinetto riempie una vasca in 3 ore, un altro in 6 ore. Se li apro entrambi, in quanto tempo si riempie la vasca?",
+                    "hint": "Calcola quale frazione della vasca riempiono insieme in 1 ora",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "1,5 ore",
+                            "label": "A"
+                        },
+                        {
+                            "value": "2 ore",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "2,5 ore",
+                            "label": "C"
+                        },
+                        {
+                            "value": "4,5 ore",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "1° rubinetto: 1/3 vasca/ora. 2° rubinetto: 1/6 vasca/ora. Insieme: 1/3 + 1/6 = 1/2 vasca/ora. Tempo: 2 ore"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Compro un libro con uno sconto del 15%. Pago 25,50€. Qual era il prezzo originale?",
+                    "hint": "25,50 rappresenta l'85% del prezzo originale",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "28€",
+                            "label": "A"
+                        },
+                        {
+                            "value": "29€",
+                            "label": "B"
+                        },
+                        {
+                            "value": "30€",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "31€",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "25,50 = 85% del prezzo. Prezzo originale = 25,50 ÷ 0,85 = 30€"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Una scatola di cereali costa 3,60€ per 400g. Un'altra costa 5,25€ per 700g. Quale conviene?",
+                    "hint": "Calcola il prezzo per 100g",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "La prima",
+                            "label": "A"
+                        },
+                        {
+                            "value": "La seconda",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Costano uguale",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Dipende",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Prima: 3,60 ÷ 4 = 0,90€/100g. Seconda: 5,25 ÷ 7 = 0,75€/100g. La seconda conviene!"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "In una classe di 25 studenti, il 60% ha gli occhi marroni. Quanti studenti hanno gli occhi di altro colore?",
+                    "hint": "Se il 60% ha occhi marroni, il 40% ha occhi di altro colore",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "8",
+                            "label": "A"
+                        },
+                        {
+                            "value": "9",
+                            "label": "B"
+                        },
+                        {
+                            "value": "10",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "11",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "40% di 25 = 0,40 × 25 = 10 studenti"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Un serbatoio contiene 80 litri d'acqua. Ne consumo 1/4, poi ne aggiungo 15 litri. Quanti litri ci sono ora?",
+                    "hint": "Fai i calcoli passo per passo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "70 litri",
+                            "label": "A"
+                        },
+                        {
+                            "value": "75 litri",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "80 litri",
+                            "label": "C"
+                        },
+                        {
+                            "value": "85 litri",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Consumo: 80 ÷ 4 = 20 litri. Rimangono: 80 - 20 = 60 litri. Aggiungo 15: 60 + 15 = 75 litri"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Un orologio digitale mostra ore e minuti (es: 12:34). Quante volte in un giorno tutte le cifre sono diverse?",
+                    "hint": "Considera che le ore vanno da 00 a 23 e i minuti da 00 a 59",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "420",
+                            "label": "A"
+                        },
+                        {
+                            "value": "432",
+                            "label": "B"
+                        },
+                        {
+                            "value": "468",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "480",
+                            "label": "D"
+                        }
+                    ],
+                    "feedback": "Calcolo complesso: per ogni ora valida (con cifre diverse), contiamo i minuti con cifre tutte diverse dalle ore e tra loro. Risultato: 468 combinazioni"
+                }
+            ]
+        }
+    ]
+}

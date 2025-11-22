@@ -1,0 +1,1270 @@
+{
+    "title": "Test di Anatomia e Fisiologia Umana",
+    "description": "Test completo sulla struttura del corpo umano, tessuti, apparato tegumentario e cute",
+    "sections": [
+        {
+            "title": "La Struttura del Corpo Umano",
+            "description": "Organizzazione anatomica, regioni corporee e sistemi",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Quali sono le tre parti principali in cui si divide il corpo umano?",
+                    "hint": "Pensa alla divisione anatomica fondamentale del corpo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Capo, tronco, arti",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Testa, collo, addome",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Torace, bacino, gambe",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Cervello, cuore, polmoni",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Capo, braccia, piedi volanti",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il corpo umano si divide anatomicamente in: capo, tronco e arti (superiori e inferiori)"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Il tronco è suddiviso in due cavità principali. Quali sono?",
+                    "hint": "Una contiene cuore e polmoni, l'altra gli organi digestivi",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Cavità cranica e spinale",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Torace e addome",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Cavità pelvica e dorsale",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Spazio anteriore e posteriore",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Camera superiore e cantina inferiore",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tronco è diviso in torace (cavità toracica) e addome (cavità addominale), separati dal diaframma"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Quale organo è responsabile degli scambi gassosi nel corpo umano?",
+                    "hint": "È l'organo principale dell'apparato respiratorio",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Cuore",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Stomaco",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Polmone",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Fegato",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Branchie",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "I polmoni permettono lo scambio di ossigeno e anidride carbonica tra aria e sangue"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Dove si trova principalmente lo stomaco?",
+                    "hint": "Fa parte dell'apparato digerente",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Nel torace",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Nell'addome",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Nella cavità pelvica",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Nel collo",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Sotto l'ascella sinistra",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Lo stomaco si trova nella cavità addominale, nella parte superiore sinistra"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Qual è l'unità fondamentale di cui sono composti tutti gli organismi viventi?",
+                    "hint": "È la più piccola unità vivente",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Il tessuto",
+                            "label": "A"
+                        },
+                        {
+                            "value": "L'organo",
+                            "label": "B"
+                        },
+                        {
+                            "value": "La cellula",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "L'apparato",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Il pixel biologico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La cellula è l'unità morfologica e funzionale di base di tutti gli organismi viventi"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Cosa formano le cellule quando si aggregano con caratteristiche simili?",
+                    "hint": "È il livello di organizzazione successivo alla cellula",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Organi",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuti",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Apparati",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Sistemi",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Colonie cellulari",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "I tessuti sono aggregati di cellule simili che svolgono una funzione comune"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Cosa formano gli organi quando lavorano insieme per una funzione complessa?",
+                    "hint": "Pensa all'apparato digerente o respiratorio",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuti specializzati",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Cellule giganti",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Sistemi o apparati",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Organelli",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Super-organi mitologici",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Gli organi si organizzano in sistemi o apparati per svolgere funzioni complesse coordinate"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Gli arti superiori comprendono:",
+                    "hint": "Dalla spalla fino alle dita",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Coscia, gamba e piede",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Braccio, avambraccio e mano",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Spalla, torace e collo",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Omero, radio e ulna",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Ali e pinne",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Gli arti superiori sono formati da braccio, avambraccio e mano"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Quale struttura collega le ossa permettendo il movimento?",
+                    "hint": "Permette la mobilità dello scheletro",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "I muscoli",
+                            "label": "A"
+                        },
+                        {
+                            "value": "I tendini",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Le articolazioni",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "I legamenti",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Le cerniere magiche",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Le articolazioni sono le strutture che uniscono due o più ossa permettendo il movimento"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Quale parte del corpo contiene gli organi più importanti come cervello e organi di senso?",
+                    "hint": "È la parte più alta del corpo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Il tronco",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Il capo",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Il torace",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Gli arti",
+                            "label": "D"
+                        },
+                        {
+                            "value": "La torre di controllo",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il capo contiene il cervello e i principali organi di senso (occhi, orecchie, naso, bocca)"
+                }
+            ]
+        },
+        {
+            "title": "I Tessuti Principali",
+            "description": "Tipologie e caratteristiche dei tessuti del corpo umano",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Quanti sono i principali tipi di tessuto del corpo umano?",
+                    "hint": "Epiteliale, connettivo, muscolare e...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "2",
+                            "label": "A"
+                        },
+                        {
+                            "value": "3",
+                            "label": "B"
+                        },
+                        {
+                            "value": "4",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "5",
+                            "label": "D"
+                        },
+                        {
+                            "value": "12",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "I quattro tessuti principali sono: epiteliale, connettivo, muscolare e nervoso"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Quale tessuto riveste le superfici esterne ed interne del corpo?",
+                    "hint": "Forma una barriera protettiva",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Tessuto spugnoso impermeabile",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto epiteliale riveste tutte le superfici del corpo, esterne (pelle) ed interne (organi)"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Quale tessuto è responsabile del movimento del corpo?",
+                    "hint": "Si contrae e si rilassa",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Tessuto elastico a molla",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto muscolare è specializzato nella contrazione e permette il movimento"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Quale tessuto trasmette impulsi elettrici e coordina le attività del corpo?",
+                    "hint": "È il tessuto del cervello e dei nervi",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Tessuto WiFi biologico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto nervoso è specializzato nella trasmissione di impulsi nervosi e nel coordinamento"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Quale tessuto fornisce supporto, connessione e protezione agli altri tessuti?",
+                    "hint": "Include ossa, cartilagini e sangue",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "D",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto adesivo naturale",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto connettivo ha funzioni di supporto, connessione e protezione; include ossa, cartilagini, sangue e tessuto adiposo"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Quale tipo di tessuto muscolare è involontario e si trova negli organi interni?",
+                    "hint": "Si trova nello stomaco e nell'intestino",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Muscolare scheletrico",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Muscolare cardiaco",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Muscolare liscio",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Muscolare striato",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Muscolare automatico robotico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto muscolare liscio è involontario e si trova nelle pareti degli organi interni"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Il tessuto osseo fa parte di quale categoria principale di tessuto?",
+                    "hint": "È un tipo specializzato di supporto",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Tessuto minerale extraterrestre",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto osseo è un tipo specializzato di tessuto connettivo mineralizzato"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Quale tessuto forma le ghiandole che secernono sostanze?",
+                    "hint": "Produce secrezioni come sudore, saliva e ormoni",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto connettivo",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto epiteliale ghiandolare",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Tessuto spremitore automatico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto epiteliale ghiandolare è specializzato nella produzione e secrezione di sostanze"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Quale caratteristica distingue il tessuto muscolare cardiaco?",
+                    "hint": "Si trova solo in un organo specifico",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "È completamente volontario",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Si trova solo nel cuore ed è involontario",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Non si contrae mai",
+                            "label": "C"
+                        },
+                        {
+                            "value": "È identico al muscolo scheletrico",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Batte solo quando glielo chiediamo gentilmente",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il tessuto muscolare cardiaco è presente solo nel cuore, è striato ma involontario e si contrae ritmicamente"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Il sangue è considerato un tipo di:",
+                    "hint": "È liquido ma è comunque un tessuto",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Tessuto epiteliale",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Tessuto connettivo liquido",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto nervoso",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Acqua colorata di rosso",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il sangue è classificato come tessuto connettivo liquido, composto da cellule sospese nel plasma"
+                }
+            ]
+        },
+        {
+            "title": "Apparato Tegumentario",
+            "description": "La pelle e le sue funzioni protettive",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Cos'è l'apparato tegumentario?",
+                    "hint": "È il rivestimento esterno del corpo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "L'insieme di ossa e articolazioni",
+                            "label": "A"
+                        },
+                        {
+                            "value": "La pelle e i suoi annessi",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Il sistema nervoso",
+                            "label": "C"
+                        },
+                        {
+                            "value": "L'apparato respiratorio",
+                            "label": "D"
+                        },
+                        {
+                            "value": "L'armatura biologica medievale",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'apparato tegumentario è formato dalla pelle e dai suoi annessi (peli, unghie, ghiandole)"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Quale funzione principale NON è svolta dall'apparato tegumentario?",
+                    "hint": "Pensa a cosa fa la pelle",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Protezione da agenti esterni",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Regolazione della temperatura",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Percezione sensoriale",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Digestione degli alimenti",
+                            "label": "D",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Fotosintesi clorofilliana",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'apparato tegumentario NON digerisce gli alimenti; questa è funzione dell'apparato digerente"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Quali sono gli annessi cutanei?",
+                    "hint": "Sono strutture associate alla pelle",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Peli, unghie, ghiandole sebacee e sudoripare",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Ossa, muscoli e tendini",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Vene, arterie e capillari",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Neuroni e sinapsi",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Antenne e sensori laser",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Gli annessi cutanei includono peli, unghie, ghiandole sebacee e sudoripare"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Quale strato della pelle è il più superficiale?",
+                    "hint": "È lo strato che vediamo e tocchiamo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Derma",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Ipoderma",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Epidermide",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Tessuto adiposo",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Crosta esterna protettiva",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'epidermide è lo strato più superficiale della pelle, in diretto contatto con l'esterno"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "Come viene regolata la temperatura corporea attraverso la pelle?",
+                    "hint": "Pensa a cosa succede quando hai caldo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Attraverso la respirazione",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Attraverso la sudorazione e la vasodilatazione",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Attraverso la digestione",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Attraverso il battito cardiaco",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Attraverso ventilatori interni automatici",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La pelle regola la temperatura attraverso la sudorazione (raffreddamento) e la vasodilatazione/vasocostrizione dei vasi sanguigni"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Quale sostanza viene prodotta dalla pelle con l'esposizione al sole?",
+                    "hint": "È importante per le ossa",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Vitamina A",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Vitamina C",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Vitamina D",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Vitamina E",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Abbronzatura istantanea spray",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La pelle sintetizza la vitamina D quando esposta alla luce solare, essenziale per l'assorbimento del calcio"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Quale pigmento determina il colore della pelle?",
+                    "hint": "Protegge dai raggi UV",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Emoglobina",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Melanina",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Carotene",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Cheratina",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Colorante alimentare E150",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La melanina è il pigmento prodotto dai melanociti che determina il colore della pelle e protegge dai raggi UV"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Dove si trovano i recettori sensoriali della pelle?",
+                    "hint": "Permettono di sentire tatto, temperatura e dolore",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Solo nell'epidermide",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Principalmente nel derma",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Solo nell'ipoderma",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Nelle unghie",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Nelle antenne tattili invisibili",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "I recettori sensoriali si trovano principalmente nel derma, permettendo di percepire tatto, pressione, temperatura e dolore"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Qual è la funzione principale delle ghiandole sebacee?",
+                    "hint": "Producono una sostanza oleosa",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Produrre sudore",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Produrre sebo per lubrificare pelle e peli",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Produrre melanina",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Produrre cheratina",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Produrre olio d'oliva naturale",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Le ghiandole sebacee producono il sebo, una sostanza oleosa che lubrifica e protegge pelle e peli"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Qual è la funzione protettiva principale della pelle?",
+                    "hint": "È come una barriera",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Produrre energia",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Barriera contro microorganismi, traumi e disidratazione",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Digerire sostanze nutritive",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Pompare il sangue",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Scudo anti-proiettile biologico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La pelle funge da barriera protettiva contro microorganismi patogeni, traumi meccanici, raggi UV e perdita di liquidi"
+                }
+            ]
+        },
+        {
+            "title": "La Struttura della Cute",
+            "description": "Anatomia dettagliata degli strati cutanei",
+            "questions": [
+                {
+                    "title": "Domanda 1",
+                    "question": "Quanti sono gli strati principali della cute?",
+                    "hint": "Epidermide, derma e...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "2",
+                            "label": "A"
+                        },
+                        {
+                            "value": "3",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "4",
+                            "label": "C"
+                        },
+                        {
+                            "value": "5",
+                            "label": "D"
+                        },
+                        {
+                            "value": "7 come gli strati dell'atmosfera",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "La cute è formata da tre strati: epidermide (superficiale), derma (intermedio) e ipoderma (profondo)"
+                },
+                {
+                    "title": "Domanda 2",
+                    "question": "Cosa significa che l'epidermide è cheratinizzata?",
+                    "hint": "È ricca di una proteina particolare",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Contiene molti vasi sanguigni",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Contiene cheratina, una proteina che la rende resistente",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "È molto elastica",
+                            "label": "C"
+                        },
+                        {
+                            "value": "È ricca di melanina",
+                            "label": "D"
+                        },
+                        {
+                            "value": "È fatta di ceramica biologica",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'epidermide è cheratinizzata perché contiene abbondante cheratina, una proteina fibrosa che la rende resistente e impermeabile"
+                },
+                {
+                    "title": "Domanda 3",
+                    "question": "Quali strutture si trovano nel derma?",
+                    "hint": "È lo strato più ricco di strutture",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Solo cellule morte",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Vasi sanguigni, recettori, ghiandole e follicoli piliferi",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Solo tessuto adiposo",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Solo melanociti",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Mini-organi e fabbriche cellulari",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il derma contiene vasi sanguigni, recettori nervosi, ghiandole (sebacee e sudoripare) e follicoli piliferi"
+                },
+                {
+                    "title": "Domanda 4",
+                    "question": "Cos'è l'ipoderma?",
+                    "hint": "È lo strato più profondo della pelle",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Lo strato superficiale della pelle",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Lo strato profondo ricco di tessuto adiposo",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Una ghiandola della pelle",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Un tipo di pelo",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Il materasso biologico sotto-pelle",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'ipoderma è lo strato più profondo della cute, ricco di tessuto adiposo che isola termicamente e ammortizza i traumi"
+                },
+                {
+                    "title": "Domanda 5",
+                    "question": "L'epidermide è vascolarizzata?",
+                    "hint": "Pensa alla presenza di vasi sanguigni",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Sì, è molto vascolarizzata",
+                            "label": "A"
+                        },
+                        {
+                            "value": "No, non contiene vasi sanguigni",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Contiene solo vasi linfatici",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Contiene solo capillari",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Sì, ha autostrade di sangue",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'epidermide NON è vascolarizzata; si nutre per diffusione dai vasi sanguigni del derma sottostante"
+                },
+                {
+                    "title": "Domanda 6",
+                    "question": "Dove si trovano i follicoli piliferi?",
+                    "hint": "Sono le strutture da cui crescono i peli",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Nell'epidermide",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Nel derma e ipoderma",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Solo nell'ipoderma",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Nelle ghiandole sudoripare",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Nelle serre capillari sotterranee",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "I follicoli piliferi si trovano nel derma e possono estendersi fino all'ipoderma"
+                },
+                {
+                    "title": "Domanda 7",
+                    "question": "Cos'è l'acne giovanile?",
+                    "hint": "È comune negli adolescenti",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Un'infezione virale della pelle",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Un'infiammazione delle ghiandole sebacee e dei follicoli",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Un tumore benigno della pelle",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Una carenza di melanina",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Una fase evolutiva della pelle robotica",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'acne giovanile è un'infiammazione delle ghiandole sebacee e dei follicoli piliferi, causata da iperproduzione di sebo e batteri"
+                },
+                {
+                    "title": "Domanda 8",
+                    "question": "Quale strato cutaneo contiene i vasi sanguigni?",
+                    "hint": "Nutre la pelle e regola la temperatura",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Epidermide",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Derma",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Solo l'ipoderma",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Le unghie",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Il sistema idraulico epidermico",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Il derma contiene una ricca rete di vasi sanguigni che nutrono la pelle e aiutano la termoregolazione"
+                },
+                {
+                    "title": "Domanda 9",
+                    "question": "Le ghiandole sudoripare si trovano principalmente in quale strato?",
+                    "hint": "Producono il sudore per raffreddare il corpo",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Epidermide",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Derma",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Ipoderma",
+                            "label": "C"
+                        },
+                        {
+                            "value": "Tessuto muscolare",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Sistema di raffreddamento esterno",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "Le ghiandole sudoripare si trovano nel derma, anche se i loro dotti attraversano l'epidermide per raggiungere la superficie"
+                },
+                {
+                    "title": "Domanda 10",
+                    "question": "Quale proteina è principalmente responsabile dell'elasticità della pelle?",
+                    "hint": "Si trova nel derma insieme al collagene",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Cheratina",
+                            "label": "A"
+                        },
+                        {
+                            "value": "Melanina",
+                            "label": "B"
+                        },
+                        {
+                            "value": "Elastina e collagene",
+                            "label": "C",
+                            "isCorrect": true
+                        },
+                        {
+                            "value": "Emoglobina",
+                            "label": "D"
+                        },
+                        {
+                            "value": "Gomma elastica molecolare",
+                            "label": "E"
+                        }
+                    ],
+                    "feedback": "L'elastina e il collagene sono proteine del derma responsabili dell'elasticità e della resistenza della pelle"
+                }
+            ]
+        }
+    ]
+}

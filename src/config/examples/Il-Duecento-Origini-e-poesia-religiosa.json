@@ -1,0 +1,412 @@
+{
+    "title": "Quiz Letteratura Italiana Medievale",
+    "description": "24 domande su Duecento e Trecento: poesia religiosa, Scuola Siciliana, Dolce Stil Novo, poeti comico-realistici.",
+    "sections": [
+        {
+            "title": "Sezione 1: Poesia religiosa del Duecento",
+            "description": "San Francesco, Jacopone, laude e spiritualità medievale.",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "Chi è l'autore del 'Cantico delle Creature'?",
+                    "hint": "È un santo.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "San Francesco d'Assisi", "label": "A", "isCorrect": true },
+                        { "value": "Jacopone da Todi", "label": "B" },
+                        { "value": "Un frate del convento di Assisi", "label": "C" },
+                        { "value": "Un uccellino estremamente ispirato", "label": "D" },
+                        { "value": "Una confraternita segreta di scoiattoli medievali", "label": "E" }
+                    ],
+                    "feedback": "San Francesco è autore del 'Cantico delle Creature', uno dei primi testi in volgare."
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "Qual è il tema principale del 'Cantico delle Creature'?",
+                    "hint": "Riguarda il rapporto uomo–natura–Dio.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "La lode a Dio attraverso la natura", "label": "A", "isCorrect": true },
+                        { "value": "La celebrazione della povertà", "label": "B" },
+                        { "value": "Una riflessione sulla condizione dell'uomo medievale", "label": "C" },
+                        { "value": "Il primo manuale di giardinaggio mistico", "label": "D" },
+                        { "value": "Le previsioni meteo del XIII secolo", "label": "E" }
+                    ],
+                    "feedback": "Il Cantico è una lode a Dio tramite gli elementi della natura."
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "Cosa caratterizza la poesia religiosa del Duecento?",
+                    "hint": "Pensa a devozione e moralità.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Il forte contenuto spirituale e morale", "label": "A", "isCorrect": true },
+                        { "value": "L'uso del volgare umbro", "label": "B" },
+                        { "value": "Una metrica semplice", "label": "C" },
+                        { "value": "Omaggi poetici a draghi luminosi", "label": "D" },
+                        { "value": "Versi scritti durante riti segreti al chiaro di luna", "label": "E" }
+                    ],
+                    "feedback": "La poesia religiosa del Duecento esprime forte spiritualità e introspezione."
+                },
+                {
+                    "title": "Domanda 1.4",
+                    "question": "Chi è un importante poeta religioso del Duecento?",
+                    "hint": "È famoso per le sue 'laude'.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Jacopone da Todi", "label": "A", "isCorrect": true },
+                        { "value": "Guittone d'Arezzo", "label": "B" },
+                        { "value": "Chiaro Davanzati", "label": "C" },
+                        { "value": "Il giullare che inventò le barzellette tristi", "label": "D" },
+                        { "value": "Il celebre eremita che incideva sonetti sulle pietre", "label": "E" }
+                    ],
+                    "feedback": "Jacopone è uno dei massimi poeti religiosi del Duecento."
+                },
+                {
+                    "title": "Domanda 1.5",
+                    "question": "Che cosa caratterizza le laude di Jacopone da Todi?",
+                    "hint": "Sono molto intense emotivamente.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Il tono drammatico e penitenziale", "label": "A", "isCorrect": true },
+                        { "value": "L'uso del volgare come lingua di devozione", "label": "B" },
+                        { "value": "La presenza di dialoghi spirituali", "label": "C" },
+                        { "value": "L'apparizione improvvisa di creature mistiche", "label": "D" },
+                        { "value": "Un ritmo da ballata da taverna", "label": "E" }
+                    ],
+                    "feedback": "Le laude di Jacopone sono note per il forte pathos penitenziale."
+                },
+                {
+                    "title": "Domanda 1.6",
+                    "question": "Quale lingua è prevalente nella poesia religiosa del Duecento?",
+                    "hint": "Non è il toscano.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Volgare umbro", "label": "A", "isCorrect": true },
+                        { "value": "Toscano letterario", "label": "B" },
+                        { "value": "Latino ecclesiastico", "label": "C" },
+                        { "value": "Il misterioso 'volgare dei grilli'", "label": "D" },
+                        { "value": "Un codice segreto compreso solo dai monaci insonni", "label": "E" }
+                    ],
+                    "feedback": "La poesia religiosa del Duecento usa spesso il volgare umbro."
+                }
+            ]
+        },
+
+        {
+            "title": "Sezione 2: Scuola Siciliana",
+            "description": "Federico II, Giacomo da Lentini, la nascita del sonetto.",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "Quale innovazione introdusse la Scuola Siciliana?",
+                    "hint": "Riguarda l’amore.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "L’elaborazione della poesia d’amore cortese in volgare",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "L’introduzione massiccia del sonetto", "label": "B" },
+                        { "value": "La rielaborazione dell’eredità provenzale", "label": "C" },
+                        { "value": "La creazione di ricette poetiche a base di arance", "label": "D" },
+                        { "value": "L’invenzione dei fan club medievali per poeti", "label": "E" }
+                    ],
+                    "feedback": "La Scuola Siciliana definisce la poesia d’amore cortese in volgare."
+                },
+
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Chi è considerato il fondatore della Scuola Siciliana?",
+                    "hint": "Un imperatore.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Federico II", "label": "A", "isCorrect": true },
+                        { "value": "Giacomo da Lentini", "label": "B" },
+                        { "value": "Pier delle Vigne", "label": "C" },
+                        { "value": "Il re che scriveva poesie per falchi addestrati", "label": "D" },
+                        { "value": "Un collettivo di marionettisti innamorati", "label": "E" }
+                    ],
+                    "feedback": "Federico II sostenne e diede origine alla Scuola Siciliana."
+                },
+
+                {
+                    "title": "Domanda 2.3",
+                    "question": "Chi è tradizionalmente considerato l'inventore del sonetto?",
+                    "hint": "È un notaio.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Giacomo da Lentini", "label": "A", "isCorrect": true },
+                        { "value": "Guido Guinizzelli", "label": "B" },
+                        { "value": "Cino da Pistoia", "label": "C" },
+                        { "value": "Il notaio che sbagliò un modulo e inventò una strofa", "label": "D" },
+                        { "value": "Un menestrello che voleva risparmiare fiato", "label": "E" }
+                    ],
+                    "feedback": "Giacomo da Lentini è considerato l'inventore del sonetto."
+                },
+
+                {
+                    "title": "Domanda 2.4",
+                    "question": "Qual è il tema dominante della poesia siciliana?",
+                    "hint": "Amore… ma ideale.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "L’amore ideale e cortese", "label": "A", "isCorrect": true },
+                        { "value": "L’esaltazione della donna", "label": "B" },
+                        { "value": "Il rapporto tra desiderio e ragione", "label": "C" },
+                        { "value": "Le lamentele sul prezzo del vino", "label": "D" },
+                        { "value": "Le difficoltà sentimentali dei cavalieri allergici ai cavalli", "label": "E" }
+                    ],
+                    "feedback": "Tema centrale è l’amore cortese, raffinato e spirituale."
+                },
+
+                {
+                    "title": "Domanda 2.5",
+                    "question": "Cosa distingue il linguaggio poetico siciliano?",
+                    "hint": "Eleganza…",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Eleganza e ricercatezza lessicale", "label": "A", "isCorrect": true },
+                        { "value": "L’uso frequente di metafore amorose", "label": "B" },
+                        { "value": "L’influsso provenzale rielaborato", "label": "C" },
+                        { "value": "Proverbi sulle arance in ogni verso", "label": "D" },
+                        { "value": "Giochi di parole per confondere i rivali", "label": "E" }
+                    ],
+                    "feedback": "La poesia siciliana mira a un linguaggio elevato e raffinato."
+                },
+
+                {
+                    "title": "Domanda 2.6",
+                    "question": "Perché la poesia siciliana fu trascritta in volgare toscano?",
+                    "hint": "Riguarda la diffusione…",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Per una maggiore diffusione nella penisola", "label": "A", "isCorrect": true },
+                        { "value": "Per la centralità del toscano", "label": "B" },
+                        { "value": "Per facilitare i copisti", "label": "C" },
+                        { "value": "Perché i copisti siciliani erano in sciopero", "label": "D" },
+                        { "value": "Perché nessuno capiva la grafia del regno", "label": "E" }
+                    ],
+                    "feedback": "Il toscano facilitò la circolazione della poesia siciliana."
+                }
+            ]
+        },
+
+        {
+            "title": "Sezione 3: Dolce Stil Novo",
+            "description": "Guinizzelli, Cavalcanti, Dante e l’amore spirituale.",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "Chi è considerato il padre del Dolce Stil Novo?",
+                    "hint": "La risposta è un bolognese.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Guido Guinizzelli", "label": "A", "isCorrect": true },
+                        { "value": "Dante Alighieri", "label": "B" },
+                        { "value": "Guido Cavalcanti", "label": "C" },
+                        { "value": "Il poeta che pensava che 'stil novo' fosse uno shampoo", "label": "D" },
+                        { "value": "Una boyband poetica del 1280", "label": "E" }
+                    ],
+                    "feedback": "Guinizzelli è il fondatore dello Stil Novo."
+                },
+
+                {
+                    "title": "Domanda 3.2",
+                    "question": "Qual è il tema centrale dello Stil Novo?",
+                    "hint": "Parla d’amore, ma molto idealizzato.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "L’amore come elevazione spirituale", "label": "A", "isCorrect": true },
+                        { "value": "La donna-angelo come guida morale", "label": "B" },
+                        { "value": "La nobiltà d’animo", "label": "C" },
+                        { "value": "Le avventure sentimentali dei gatti medievali", "label": "D" },
+                        { "value": "Le classifiche segrete delle donne più angeliche", "label": "E" }
+                    ],
+                    "feedback": "Nel Dolce Stil Novo l’amore purifica e innalza spiritualmente."
+                },
+
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Qual è il tratto distintivo della donna angelicata?",
+                    "hint": "Pensa al suo ruolo simbolico.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "È tramite verso Dio", "label": "A", "isCorrect": true },
+                        { "value": "Rappresenta perfezione morale", "label": "B" },
+                        { "value": "Ha un effetto miracoloso sul poeta", "label": "C" },
+                        { "value": "Brilla come una lampada a olio", "label": "D" },
+                        { "value": "Può letteralmente volare se molto ispirata", "label": "E" }
+                    ],
+                    "feedback": "La donna angelicata è mediatrice spirituale."
+                },
+
+                {
+                    "title": "Domanda 3.4",
+                    "question": "Chi è uno dei principali esponenti dello Stil Novo oltre a Guinizzelli?",
+                    "hint": "È un caro amico di Dante.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Guido Cavalcanti", "label": "A", "isCorrect": true },
+                        { "value": "Dante Alighieri", "label": "B" },
+                        { "value": "Lapo Gianni", "label": "C" },
+                        { "value": "Il cavaliere che scriveva sonetti per rimorchiare", "label": "D" },
+                        { "value": "Anonimo, il poeta timido", "label": "E" }
+                    ],
+                    "feedback": "Cavalcanti è figura centrale dello Stil Novo."
+                },
+
+                {
+                    "title": "Domanda 3.5",
+                    "question": "Cosa differenzia lo Stil Novo dalla poesia precedente?",
+                    "hint": "È un fatto di raffinatezza…",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Maggiore raffinatezza concettuale", "label": "A", "isCorrect": true },
+                        { "value": "Attenzione agli stati interiori", "label": "B" },
+                        { "value": "Linguaggio più limpido", "label": "C" },
+                        { "value": "L’obbligo di usare tre angeli per poesia", "label": "D" },
+                        { "value": "Il divieto di scrivere con la luna piena", "label": "E" }
+                    ],
+                    "feedback": "Lo Stil Novo porta a nuova purezza e finezza poetica."
+                },
+
+                {
+                    "title": "Domanda 3.6",
+                    "question": "Quale opera è considerata manifesto dello Stil Novo?",
+                    "hint": "Pensa a Guinizzelli.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "“Al cor gentil rempaira sempre amore”", "label": "A", "isCorrect": true },
+                        { "value": "“Io voglio del ver la mia donna laudare”", "label": "B" },
+                        { "value": "“Omo ch’è saggio non corre folle amore”", "label": "C" },
+                        { "value": "“Manuale del perfetto stilnovista”", "label": "D" },
+                        { "value": "“Poetare in 10 lezioni”", "label": "E" }
+                    ],
+                    "feedback": "Il manifesto dello Stil Novo è il celebre testo di Guinizzelli."
+                }
+            ]
+        },
+
+        {
+            "title": "Sezione 4: Poesia comico-realistica",
+            "description": "Cecco Angiolieri, Cieco d’Adamo, realismo e satira.",
+            "questions": [
+                {
+                    "title": "Domanda 4.1",
+                    "question": "Per cosa è noto Cecco Angiolieri?",
+                    "hint": "Non era uno stilnovista.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Per la poesia comico-realistica e satirica", "label": "A", "isCorrect": true },
+                        { "value": "Per un linguaggio diretto e popolaresco", "label": "B" },
+                        { "value": "Per sonetti anticonvenzionali", "label": "C" },
+                        { "value": "Per aver inventato il primo meme medievale", "label": "D" },
+                        { "value": "Per la leggendaria rissa con un liutaio", "label": "E" }
+                    ],
+                    "feedback": "Cecco è emblema della corrente comico-realistica."
+                },
+
+                {
+                    "title": "Domanda 4.2",
+                    "question": "Qual è il tono tipico dei sonetti di Cecco Angiolieri?",
+                    "hint": "Non è elevato…",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Irriverente e provocatorio", "label": "A", "isCorrect": true },
+                        { "value": "Realistico e diretto", "label": "B" },
+                        { "value": "In contrasto con i valori cortesi", "label": "C" },
+                        { "value": "Istruzioni per costruire catapulte", "label": "D" },
+                        { "value": "Ricette medievali molto discutibili", "label": "E" }
+                    ],
+                    "feedback": "Cecco è noto per una voce irriverente e polemica."
+                },
+
+                {
+                    "title": "Domanda 4.3",
+                    "question": "Qual è il più famoso incipit di Cecco Angiolieri?",
+                    "hint": "Inizia con 'S’ì fosse...'",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "“S’ì fosse foco, arderei ’l mondo”", "label": "A", "isCorrect": true },
+                        { "value": "“Ahi lasso, or è stagion di doler tanto”", "label": "B" },
+                        { "value": "“Becchin amor! che vuo’ tu fare?”", "label": "C" },
+                        { "value": "“S’io fossi re, abolirei i compiti”", "label": "D" },
+                        { "value": "“S’io fossi vento, volerei tra i cappelli”", "label": "E" }
+                    ],
+                    "feedback": "Incipit celebre di Cecco, manifesto del suo stile aggressivo."
+                },
+
+                {
+                    "title": "Domanda 4.4",
+                    "question": "Qual è una caratteristica dei poeti burlesco-realistici?",
+                    "hint": "La realtà quotidiana è centrale.",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "L’uso di temi quotidiani", "label": "A", "isCorrect": true },
+                        { "value": "La rottura dei codici cortesi", "label": "B" },
+                        { "value": "Il linguaggio diretto", "label": "C" },
+                        { "value": "L’inserimento di animali parlanti ad ogni strofa", "label": "D" },
+                        { "value": "Rime basate su fiaschi di vino", "label": "E" }
+                    ],
+                    "feedback": "La poesia comico-realistica prende spunto dal quotidiano comune."
+                },
+
+                {
+                    "title": "Domanda 4.5",
+                    "question": "Chi è un altro importante poeta comico-realista?",
+                    "hint": "Il nome inizia con Cieco...",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Cieco d’Adamo", "label": "A", "isCorrect": true },
+                        { "value": "Rustico Filippi", "label": "B" },
+                        { "value": "Folengo proto-maccheronico", "label": "C" },
+                        { "value": "Un buffone del Comune di Siena", "label": "D" },
+                        { "value": "Il giullare che firmava con una X", "label": "E" }
+                    ],
+                    "feedback": "Cieco d’Adamo è una figura di rilievo nella tradizione burlesca."
+                },
+
+                {
+                    "title": "Domanda 4.6",
+                    "question": "Qual è una caratteristica tipica del linguaggio burlesco?",
+                    "hint": "Molto vivace…",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Volgare vivace e colorito", "label": "A", "isCorrect": true },
+                        { "value": "Ironia tagliente", "label": "B" },
+                        { "value": "Toni volutamente eccessivi", "label": "C" },
+                        { "value": "Un uso massiccio di emoji medievali", "label": "D" },
+                        { "value": "Rime selezionate scuotendo un sacchetto di parole", "label": "E" }
+                    ],
+                    "feedback": "Il linguaggio burlesco è diretto, colorito e spesso eccessivo."
+                }
+            ]
+        }
+    ]
+}

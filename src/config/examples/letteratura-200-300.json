@@ -1,0 +1,275 @@
+{
+    "title": "Quiz Letteratura Italiana - Duecento e Trecento",
+    "description": "Domande a risposta multipla sulla letteratura medievale italiana: dalla poesia religiosa al Dolce Stil Novo.",
+    "sections": [
+        {
+            "title": "Sezione 1: Volgare, Poesia d'Amore e Poesia Religiosa",
+            "description": "Domande sugli inizi della letteratura in volgare e sui principali temi amorosi e religiosi.",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "Qual è uno dei primi esempi di poesia italiana in volgare?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Cantico dei Cantici", "label": "A" },
+                        { "value": "Cantico delle Creature", "label": "B", "isCorrect": true },
+                        { "value": "La Divina Commedia", "label": "C" },
+                        { "value": "Il Milione", "label": "D" }
+                    ],
+                    "feedback": "Il 'Cantico delle Creature' di San Francesco è uno dei più antichi testi poetici in volgare italiano."
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "Quale tra questi temi è tipico della poesia d’amore siciliana del Duecento?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Amore cortese e idealizzazione della donna", "label": "A", "isCorrect": true },
+                        { "value": "Satira politica", "label": "B" },
+                        { "value": "Racconti epici", "label": "C" },
+                        { "value": "Miracoli di santi", "label": "D" }
+                    ],
+                    "feedback": "La Scuola Siciliana elabora un amore raffinato e idealizzato."
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "Chi è l’autore del 'Cantico delle Creature'?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Giacomo da Lentini", "label": "A" },
+                        { "value": "San Francesco d’Assisi", "label": "B", "isCorrect": true },
+                        { "value": "Dante Alighieri", "label": "C" },
+                        { "value": "Cecco Angiolieri", "label": "D" }
+                    ],
+                    "feedback": "San Francesco scrisse il Cantico in volgare umbro."
+                },
+                {
+                    "title": "Domanda 1.4",
+                    "question": "Qual è il tema centrale del Cantico delle Creature?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Lode a Dio attraverso le creature", "label": "A", "isCorrect": true },
+                        { "value": "Amore terreno e passionale", "label": "B" },
+                        { "value": "Critica alla società medievale", "label": "C" },
+                        { "value": "Elogio della guerra santa", "label": "D" }
+                    ],
+                    "feedback": "Il Cantico è una lode universale alla creazione."
+                },
+                {
+                    "title": "Domanda 1.5",
+                    "question": "In quale volgare è scritto il Cantico delle Creature?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Volgare toscano", "label": "A" },
+                        { "value": "Volgare umbro", "label": "B", "isCorrect": true },
+                        { "value": "Volgare siciliano", "label": "C" },
+                        { "value": "Volgare veneto", "label": "D" }
+                    ],
+                    "feedback": "San Francesco utilizza il volgare umbro, la lingua della sua regione."
+                },
+                {
+                    "title": "Domanda 1.6",
+                    "question": "Qual è l’innovazione principale introdotta dalla Scuola Siciliana?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Uso sistematico del volgare in poesia", "label": "A", "isCorrect": true },
+                        { "value": "Componimenti in latino classico", "label": "B" },
+                        { "value": "Racconti in prosa", "label": "C" },
+                        { "value": "Poesia comica", "label": "D" }
+                    ],
+                    "feedback": "La Scuola Siciliana nobilita il volgare come lingua poetica."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: Dolce Stil Novo",
+            "description": "Domande sullo stile poetico che rivoluzionò il concetto d’amore nel Duecento.",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "Chi è considerato il teorico principale del Dolce Stil Novo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Guido Guinizelli", "label": "A", "isCorrect": true },
+                        { "value": "Dante Alighieri", "label": "B" },
+                        { "value": "Giacomo da Lentini", "label": "C" },
+                        { "value": "Cino da Pistoia", "label": "D" }
+                    ],
+                    "feedback": "Guinizelli scrive il manifesto poetico dello Stil Novo."
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Quale definizione rappresenta meglio la donna stilnovista?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Figura concreta e passionale", "label": "A" },
+                        { "value": "Creatura angelica che eleva lo spirito", "label": "B", "isCorrect": true },
+                        { "value": "Donna guerriera", "label": "C" },
+                        { "value": "Oggetto di satira", "label": "D" }
+                    ],
+                    "feedback": "La donna è vista come tramite tra l’uomo e Dio."
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "Quale sentimento caratterizza l’amore stilnovista?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Amore come tormento fisico", "label": "A" },
+                        { "value": "Amore come elevazione spirituale", "label": "B", "isCorrect": true },
+                        { "value": "Amore come satira sociale", "label": "C" },
+                        { "value": "Amore comico e popolare", "label": "D" }
+                    ],
+                    "feedback": "Lo Stil Novo esalta l’amore come perfezionamento morale."
+                },
+                {
+                    "title": "Domanda 2.4",
+                    "question": "Quale poeta stilnovista scrive 'Tanto gentile e tanto onesta pare'?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Guido Cavalcanti", "label": "A" },
+                        { "value": "Dante Alighieri", "label": "B", "isCorrect": true },
+                        { "value": "Cino da Pistoia", "label": "C" },
+                        { "value": "Guido Guinizelli", "label": "D" }
+                    ],
+                    "feedback": "Dante dedica la poesia a Beatrice."
+                },
+                {
+                    "title": "Domanda 2.5",
+                    "question": "Quale concetto introduce lo Stil Novo riguardo all'amore?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Amore come malattia dell’anima", "label": "A" },
+                        { "value": "Amore riservato ai cavalieri", "label": "B" },
+                        { "value": "Amore riservato ai cuori gentili", "label": "C", "isCorrect": true },
+                        { "value": "Amore come rivalità poetica", "label": "D" }
+                    ],
+                    "feedback": "Solo l’anima nobile può provare il vero amore."
+                },
+                {
+                    "title": "Domanda 2.6",
+                    "question": "Qual è una caratteristica linguistica del Dolce Stil Novo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Linguaggio semplice e popolare", "label": "A" },
+                        { "value": "Linguaggio elevato e raffinato", "label": "B", "isCorrect": true },
+                        { "value": "Uso di dialetti regionali", "label": "C" },
+                        { "value": "Stile comico", "label": "D" }
+                    ],
+                    "feedback": "Lo Stil Novo ricerca un lessico puro e nobilitato."
+                }
+            ]
+        },
+        {
+            "title": "Sezione 3: Poesia Comica e il Poeta 'Arrabbiato'",
+            "description": "Domande su Cecco Angiolieri e la poesia comico-realistica del Duecento.",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "Chi è il principale esponente della poesia comico-realistica tra Duecento e Trecento?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Dante Alighieri", "label": "A" },
+                        { "value": "Cecco Angiolieri", "label": "B", "isCorrect": true },
+                        { "value": "Francesco Petrarca", "label": "C" },
+                        { "value": "Guido Guinizelli", "label": "D" }
+                    ],
+                    "feedback": "Cecco Angiolieri è noto per il tono irriverente e arrabbiato."
+                },
+                {
+                    "title": "Domanda 3.2",
+                    "question": "Qual è il tono caratteristico della poesia di Cecco Angiolieri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Devoto e religioso", "label": "A" },
+                        { "value": "Comico, aggressivo e provocatorio", "label": "B", "isCorrect": true },
+                        { "value": "Romantico e malinconico", "label": "C" },
+                        { "value": "Filosofico e meditativo", "label": "D" }
+                    ],
+                    "feedback": "Cecco rappresenta il rovesciamento comico del lirismo amoroso."
+                },
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Qual è il celebre verso d’attacco di una poesia di Cecco Angiolieri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "S’i’ fosse foco, arderei ’l mondo", "label": "A", "isCorrect": true },
+                        { "value": "Nel mezzo del cammin di nostra vita", "label": "B" },
+                        { "value": "Tanto gentile e tanto onesta pare", "label": "C" },
+                        { "value": "Io mi trovai per una selva oscura", "label": "D" }
+                    ],
+                    "feedback": "'S’i’ fosse foco' è uno dei testi più noti del poeta senese."
+                },
+                {
+                    "title": "Domanda 3.4",
+                    "question": "In cosa consiste la comicità della poesia di Angiolieri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Uso di visioni mistiche", "label": "A" },
+                        {
+                            "value": "Contrasto con l’amore idealizzato dello Stil Novo",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "Descrizioni epiche", "label": "C" },
+                        { "value": "Dialoghi filosofici", "label": "D" }
+                    ],
+                    "feedback": "Cecco smonta ironicamente l’amore spirituale dei poeti stilnovisti."
+                },
+                {
+                    "title": "Domanda 3.5",
+                    "question": "Quali temi compaiono spesso nei componimenti comico-realistici?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Lode della nobiltà femminile", "label": "A" },
+                        {
+                            "value": "Problemi economici, litigi familiari e sfoghi personali",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "Visioni angeliche", "label": "C" },
+                        { "value": "Riflessioni teologiche", "label": "D" }
+                    ],
+                    "feedback": "La poesia comica mette al centro la vita quotidiana, spesso in modo aggressivo."
+                },
+                {
+                    "title": "Domanda 3.6",
+                    "question": "Chi tra questi poeti appartiene alla tradizione comica e non allo Stil Novo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Guido Cavalcanti", "label": "A" },
+                        { "value": "Cino da Pistoia", "label": "B" },
+                        { "value": "Cecco Angiolieri", "label": "C", "isCorrect": true },
+                        { "value": "Guido Guinizelli", "label": "D" }
+                    ],
+                    "feedback": "Cecco è l’antitesi comica del raffinato mondo stilnovista."
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "ranges": [
+            { "min": 15, "max": 18, "feedback": "Eccellente! Conosci perfettamente la letteratura medievale." },
+            { "min": 11, "max": 14, "feedback": "Ottimo livello, hai una solida preparazione." },
+            { "min": 7, "max": 10, "feedback": "Buon livello, puoi rafforzare alcuni aspetti." },
+            { "min": 4, "max": 6, "feedback": "Livello sufficiente, ripassa i concetti principali." },
+            { "min": 0, "max": 3, "feedback": "Serve più studio: riparti dai fondamentali." }
+        ]
+    }
+}

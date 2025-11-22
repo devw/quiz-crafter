@@ -1,0 +1,602 @@
+{
+    "title": "Quiz di Geografia - 4ª Elementare",
+    "description": "Scopri quanto conosci continenti, oceani, paralleli, meridiani e le diverse tipologie di carte geografiche! 🌍",
+    "sections": [
+        {
+            "title": "Sezione 1: I Continenti - Parte 1",
+            "description": "Scopri i continenti del mondo!",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "Quanti sono i continenti della Terra?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "5", "label": "A" },
+                        { "value": "6", "label": "B", "isCorrect": true },
+                        { "value": "7", "label": "C" },
+                        { "value": "4", "label": "D" }
+                    ],
+                    "feedback": "I continenti sono 6: Europa, Asia, Africa, America, Oceania e Antartide. 🌍"
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "In quale continente si trova l'Italia?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Asia", "label": "A" },
+                        { "value": "Europa", "label": "B", "isCorrect": true },
+                        { "value": "Africa", "label": "C" },
+                        { "value": "America", "label": "D" }
+                    ],
+                    "feedback": "L'Italia si trova in Europa! 🇮🇹"
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "Qual è il continente più grande?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Africa", "label": "A" },
+                        { "value": "America", "label": "B" },
+                        { "value": "Asia", "label": "C", "isCorrect": true },
+                        { "value": "Europa", "label": "D" }
+                    ],
+                    "feedback": "L'Asia è il continente più grande del mondo! 🗺️"
+                },
+                {
+                    "title": "Domanda 1.4",
+                    "question": "Quale continente è circondato dall'Oceano Atlantico a est e dall'Oceano Pacifico a ovest?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Europa", "label": "A" },
+                        { "value": "Africa", "label": "B" },
+                        { "value": "America", "label": "C", "isCorrect": true },
+                        { "value": "Asia", "label": "D" }
+                    ],
+                    "feedback": "L'America è stretta tra due oceani: l'Atlantico e il Pacifico! 🌊"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: I Continenti - Parte 2",
+            "description": "Continua a esplorare i continenti!",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "Qual è il continente più freddo della Terra?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Europa", "label": "A" },
+                        { "value": "Asia", "label": "B" },
+                        { "value": "Antartide", "label": "C", "isCorrect": true },
+                        { "value": "America", "label": "D" }
+                    ],
+                    "feedback": "L'Antartide è coperta di ghiaccio tutto l'anno! È il continente più freddo! ❄️🐧"
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Quale continente si trova a sud dell'Europa?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Asia", "label": "A" },
+                        { "value": "Africa", "label": "B", "isCorrect": true },
+                        { "value": "America", "label": "C" },
+                        { "value": "Oceania", "label": "D" }
+                    ],
+                    "feedback": "L'Africa è sotto l'Europa! Sono separati dal Mar Mediterraneo! 🦁"
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "In quale continente si trovano i canguri?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Africa", "label": "A" },
+                        { "value": "America", "label": "B" },
+                        { "value": "Oceania", "label": "C", "isCorrect": true },
+                        { "value": "Asia", "label": "D" }
+                    ],
+                    "feedback": "I canguri vivono in Oceania, soprattutto in Australia! 🦘"
+                },
+                {
+                    "title": "Domanda 2.4",
+                    "question": "Qual è il continente dove si trova il deserto del Sahara?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Asia", "label": "A" },
+                        { "value": "Africa", "label": "B", "isCorrect": true },
+                        { "value": "America", "label": "C" },
+                        { "value": "Europa", "label": "D" }
+                    ],
+                    "feedback": "Il Sahara è il deserto più grande dell'Africa! 🐪🏜️"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 3: Gli Oceani",
+            "description": "Scopri gli oceani del nostro pianeta blu!",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "Quanti sono gli oceani principali?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "3", "label": "A" },
+                        { "value": "4", "label": "B" },
+                        { "value": "5", "label": "C", "isCorrect": true },
+                        { "value": "6", "label": "D" }
+                    ],
+                    "feedback": "Gli oceani sono 5: Pacifico, Atlantico, Indiano, Artico e Antartico. 🌊"
+                },
+                {
+                    "title": "Domanda 3.2",
+                    "question": "Qual è l'oceano più grande?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Oceano Atlantico", "label": "A" },
+                        { "value": "Oceano Pacifico", "label": "B", "isCorrect": true },
+                        { "value": "Oceano Indiano", "label": "C" },
+                        { "value": "Oceano Artico", "label": "D" }
+                    ],
+                    "feedback": "L'Oceano Pacifico è il più grande! È talmente grande che potrebbe contenere tutti i continenti! 🌊🐋"
+                },
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Quale mare bagna le coste dell'Italia?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Mar Nero", "label": "A" },
+                        { "value": "Mar Mediterraneo", "label": "B", "isCorrect": true },
+                        { "value": "Mar Rosso", "label": "C" },
+                        { "value": "Mar Caspio", "label": "D" }
+                    ],
+                    "feedback": "L'Italia è bagnata dal Mar Mediterraneo! 🇮🇹🏖️"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 4: Paralleli e Meridiani",
+            "description": "Impara a orientarti con le linee immaginarie!",
+            "questions": [
+                {
+                    "title": "Domanda 4.1",
+                    "question": "Come si chiamano le linee orizzontali che girano intorno alla Terra?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Meridiani", "label": "A" },
+                        { "value": "Paralleli", "label": "B", "isCorrect": true },
+                        { "value": "Diagonali", "label": "C" },
+                        { "value": "Cerchi", "label": "D" }
+                    ],
+                    "feedback": "I paralleli sono le linee orizzontali, come cinture intorno alla Terra! 🌐"
+                },
+                {
+                    "title": "Domanda 4.2",
+                    "question": "Come si chiamano le linee verticali che vanno dal Polo Nord al Polo Sud?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Paralleli", "label": "A" },
+                        { "value": "Equatori", "label": "B" },
+                        { "value": "Meridiani", "label": "C", "isCorrect": true },
+                        { "value": "Verticali", "label": "D" }
+                    ],
+                    "feedback": "I meridiani sono le linee verticali, come spicchi di un'arancia! 🍊"
+                },
+                {
+                    "title": "Domanda 4.3",
+                    "question": "Come si chiama il parallelo più importante che divide la Terra a metà?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Tropico", "label": "A" },
+                        { "value": "Equatore", "label": "B", "isCorrect": true },
+                        { "value": "Polo", "label": "C" },
+                        { "value": "Meridiano", "label": "D" }
+                    ],
+                    "feedback": "L'Equatore è come la cintura della Terra! Divide in Emisfero Nord e Sud! 🌍"
+                },
+                {
+                    "title": "Domanda 4.4",
+                    "question": "Se guardo il mappamondo, i paralleli vanno come?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Da sinistra a destra (orizzontali)", "label": "A", "isCorrect": true },
+                        { "value": "Dall'alto in basso (verticali)", "label": "B" },
+                        { "value": "In diagonale", "label": "C" },
+                        { "value": "A zig zag", "label": "D" }
+                    ],
+                    "feedback": "I paralleli sono orizzontali! Ricorda: parallelo = come il pavimento! 📏"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 5: La Scala delle Carte",
+            "description": "Impara a capire le dimensioni sulle carte!",
+            "questions": [
+                {
+                    "title": "Domanda 5.1",
+                    "question": "Cos'è la scala di una carta geografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Una scala per salire sulle montagne", "label": "A" },
+                        {
+                            "value": "Ci dice quanto è stato rimpicciolito il territorio sulla carta",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "L'altezza delle montagne", "label": "C" },
+                        { "value": "I colori della carta", "label": "D" }
+                    ],
+                    "feedback": "La scala ci dice quanto è stata rimpicciolita la realtà per farla stare sulla carta! 📏"
+                },
+                {
+                    "title": "Domanda 5.2",
+                    "question": "Se sulla carta geografica c'è scritto: 1 cm = 10 km, cosa significa?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Che 1 centimetro sulla carta è 10 chilometri nella realtà",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Che la carta è lunga 10 km", "label": "B" },
+                        { "value": "Che ci vogliono 10 km per fare la carta", "label": "C" },
+                        { "value": "Che la carta pesa 1 kg", "label": "D" }
+                    ],
+                    "feedback": "Esatto! Se misuri 1 cm sulla carta, nella realtà quella distanza è di 10 km! 🚗"
+                },
+                {
+                    "title": "Domanda 5.3",
+                    "question": "Su una carta leggi: 1 cm = 5 km. Se misuri 2 cm sulla carta, quanti km sono nella realtà?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "2 km", "label": "A" },
+                        { "value": "5 km", "label": "B" },
+                        { "value": "7 km", "label": "C" },
+                        { "value": "10 km", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Se 1 cm = 5 km, allora 2 cm = 10 km! Basta moltiplicare! 🧮"
+                },
+                {
+                    "title": "Domanda 5.4",
+                    "question": "Quale carta mostra più dettagli?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Una carta dove 1 cm = 100 km", "label": "A" },
+                        { "value": "Una carta dove 1 cm = 1 km", "label": "B", "isCorrect": true },
+                        { "value": "Sono uguali", "label": "C" },
+                        { "value": "Una carta senza scala", "label": "D" }
+                    ],
+                    "feedback": "Più la scala è piccola (1 cm = 1 km), più dettagli vedi! È come fare uno zoom! 🔍"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 6: Carte Fisiche e Politiche",
+            "description": "Scopri i diversi tipi di carte!",
+            "questions": [
+                {
+                    "title": "Domanda 6.1",
+                    "question": "Cosa mostra una carta fisica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "I confini degli Stati", "label": "A" },
+                        { "value": "Montagne, fiumi, mari e pianure", "label": "B", "isCorrect": true },
+                        { "value": "Le città", "label": "C" },
+                        { "value": "Le strade", "label": "D" }
+                    ],
+                    "feedback": "La carta fisica mostra la natura: montagne, fiumi, mari! ⛰️🏞️"
+                },
+                {
+                    "title": "Domanda 6.2",
+                    "question": "Su una carta fisica, le montagne sono di solito colorate di:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Blu", "label": "A" },
+                        { "value": "Verde", "label": "B" },
+                        { "value": "Marrone o rosso", "label": "C", "isCorrect": true },
+                        { "value": "Rosa", "label": "D" }
+                    ],
+                    "feedback": "Le montagne sono marroni! Più sono alte, più il marrone è scuro! 🏔️"
+                },
+                {
+                    "title": "Domanda 6.3",
+                    "question": "Cosa mostra una carta politica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Solo i fiumi", "label": "A" },
+                        { "value": "Gli Stati, le regioni, le città e i confini", "label": "B", "isCorrect": true },
+                        { "value": "Solo le montagne", "label": "C" },
+                        { "value": "Gli animali", "label": "D" }
+                    ],
+                    "feedback": "La carta politica mostra come l'uomo ha diviso il territorio in nazioni e città! 🏛️"
+                },
+                {
+                    "title": "Domanda 6.4",
+                    "question": "Su una carta fisica, di che colore sono i mari e gli oceani?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Verde", "label": "A" },
+                        { "value": "Blu o azzurro", "label": "B", "isCorrect": true },
+                        { "value": "Giallo", "label": "C" },
+                        { "value": "Rosso", "label": "D" }
+                    ],
+                    "feedback": "L'acqua è sempre blu! Più l'oceano è profondo, più il blu è scuro! 🌊"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 7: Carte Tematiche e Topografiche",
+            "description": "Esplora altri tipi di carte speciali!",
+            "questions": [
+                {
+                    "title": "Domanda 7.1",
+                    "question": "Cos'è una carta tematica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Una carta che mostra UN solo tema (clima, popolazione, lingue...)",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Una carta colorata", "label": "B" },
+                        { "value": "Una carta antica", "label": "C" },
+                        { "value": "Una carta di plastica", "label": "D" }
+                    ],
+                    "feedback": "La carta tematica si concentra su UN argomento: ad esempio dove piove di più! ☔📊"
+                },
+                {
+                    "title": "Domanda 7.2",
+                    "question": "Quale di queste è un esempio di carta tematica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Una carta che mostra dove fa più caldo in Italia",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Una carta che mostra solo montagne e fiumi", "label": "B" },
+                        { "value": "Una carta che mostra solo i confini", "label": "C" },
+                        { "value": "Una carta bianca", "label": "D" }
+                    ],
+                    "feedback": "Esatto! Una carta del clima è tematica perché mostra solo un tema! 🌡️"
+                },
+                {
+                    "title": "Domanda 7.3",
+                    "question": "Una carta che mostra le lingue parlate in Europa è una carta:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Fisica", "label": "A" },
+                        { "value": "Politica", "label": "B" },
+                        { "value": "Tematica", "label": "C", "isCorrect": true },
+                        { "value": "Del tesoro", "label": "D" }
+                    ],
+                    "feedback": "È una carta tematica perché mostra un tema specifico: le lingue! 🗣️🌍"
+                },
+                {
+                    "title": "Domanda 7.4",
+                    "question": "Cos'è una carta topografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Una carta con molti dettagli di una piccola zona (case, strade, parchi...)",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "Una carta del mondo intero", "label": "B" },
+                        { "value": "Una carta solo dei mari", "label": "C" },
+                        { "value": "Una carta per giocare", "label": "D" }
+                    ],
+                    "feedback": "La carta topografica è come una foto dall'alto molto dettagliata! 🏘️📸"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 8: Esempi di Carte Tematiche",
+            "description": "Impara a riconoscere le carte tematiche!",
+            "questions": [
+                {
+                    "title": "Domanda 8.1",
+                    "question": "Una carta che mostra dove si coltiva il grano in Italia è:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Una carta fisica", "label": "A" },
+                        { "value": "Una carta tematica", "label": "B", "isCorrect": true },
+                        { "value": "Una carta politica", "label": "C" },
+                        { "value": "Un cruciverba", "label": "D" }
+                    ],
+                    "feedback": "È una carta tematica agricola! Mostra dove si coltivano i prodotti! 🌾🚜"
+                },
+                {
+                    "title": "Domanda 8.2",
+                    "question": "Una carta che mostra quante persone vivono in ogni regione è:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Una carta della popolazione (tematica)", "label": "A", "isCorrect": true },
+                        { "value": "Una carta fisica", "label": "B" },
+                        { "value": "Una carta topografica", "label": "C" },
+                        { "value": "Una carta dei giochi", "label": "D" }
+                    ],
+                    "feedback": "È una carta tematica demografica! Mostra dove vive più gente! 👥📈"
+                },
+                {
+                    "title": "Domanda 8.3",
+                    "question": "Se voglio sapere dove fa più freddo in inverno, quale carta uso?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Carta politica", "label": "A" },
+                        { "value": "Carta tematica del clima", "label": "B", "isCorrect": true },
+                        { "value": "Carta fisica", "label": "C" },
+                        { "value": "Carta stradale", "label": "D" }
+                    ],
+                    "feedback": "Serve una carta tematica del clima! Ti mostra le temperature! 🌡️❄️"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 9: Orientamento e Legenda",
+            "description": "Impara a leggere le carte come un vero esploratore!",
+            "questions": [
+                {
+                    "title": "Domanda 9.1",
+                    "question": "Dove si trova il Nord su una carta geografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "In basso", "label": "A" },
+                        { "value": "In alto", "label": "B", "isCorrect": true },
+                        { "value": "A sinistra", "label": "C" },
+                        { "value": "Al centro", "label": "D" }
+                    ],
+                    "feedback": "Il Nord è sempre in alto sulle carte! 🧭⬆️"
+                },
+                {
+                    "title": "Domanda 9.2",
+                    "question": "Cos'è la rosa dei venti?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Un fiore", "label": "A" },
+                        {
+                            "value": "Un simbolo che indica i punti cardinali (Nord, Sud, Est, Ovest)",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "Un tipo di vento", "label": "C" },
+                        { "value": "Una nave", "label": "D" }
+                    ],
+                    "feedback": "La rosa dei venti è come una bussola disegnata sulla carta! 🌹🧭"
+                },
+                {
+                    "title": "Domanda 9.3",
+                    "question": "A cosa serve la legenda in una carta?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Per decorare", "label": "A" },
+                        {
+                            "value": "Per spiegare cosa significano i simboli e i colori",
+                            "label": "B",
+                            "isCorrect": true
+                        },
+                        { "value": "Per scrivere il titolo", "label": "C" },
+                        { "value": "Per fare gli esercizi", "label": "D" }
+                    ],
+                    "feedback": "La legenda è come il dizionario della carta! Ti spiega tutto! 📖✨"
+                },
+                {
+                    "title": "Domanda 9.4",
+                    "question": "Se il sole sorge a Est, dove tramonta?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Nord", "label": "A" },
+                        { "value": "Sud", "label": "B" },
+                        { "value": "Est", "label": "C" },
+                        { "value": "Ovest", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Il sole sorge a Est e tramonta a Ovest! 🌅➡️🌇"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 10: Domande Divertenti! 🎉",
+            "description": "Un po' di geografia divertente!",
+            "questions": [
+                {
+                    "title": "Domanda 10.1",
+                    "question": "Quale continente ha la forma che assomiglia a uno stivale?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "L'Europa (guardando l'Italia!)", "label": "A", "isCorrect": true },
+                        { "value": "L'Africa", "label": "B" },
+                        { "value": "L'Asia", "label": "C" },
+                        { "value": "L'Antartide", "label": "D" }
+                    ],
+                    "feedback": "L'Italia in Europa ha la forma di uno stivale! Così la riconosci subito! 👢🇮🇹"
+                },
+                {
+                    "title": "Domanda 10.2",
+                    "question": "Se potessi camminare dall'Europa all'Africa, quale mare dovresti attraversare?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Mar Rosso", "label": "A" },
+                        { "value": "Mar Mediterraneo", "label": "B", "isCorrect": true },
+                        { "value": "Mar Nero", "label": "C" },
+                        { "value": "Mar Giallo", "label": "D" }
+                    ],
+                    "feedback": "Il Mar Mediterraneo separa Europa e Africa! Ma meglio prendere una nave! ⛴️"
+                },
+                {
+                    "title": "Domanda 10.3",
+                    "question": "In quale continente vive Babbo Natale secondo le leggende?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Africa", "label": "A" },
+                        { "value": "Europa (Lapponia)", "label": "B", "isCorrect": true },
+                        { "value": "America", "label": "C" },
+                        { "value": "Oceania", "label": "D" }
+                    ],
+                    "feedback": "Babbo Natale vive in Lapponia, nel nord dell'Europa! 🎅❄️"
+                },
+                {
+                    "title": "Domanda 10.4",
+                    "question": "Quale carta useresti per trovare un tesoro nascosto su un'isola?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Carta del tesoro con X che segna il punto!", "label": "A", "isCorrect": true },
+                        { "value": "Carta politica", "label": "B" },
+                        { "value": "Carta tematica del clima", "label": "C" },
+                        { "value": "Carta dei gelati", "label": "D" }
+                    ],
+                    "feedback": "Per i tesori serve una mappa speciale con la X! Ma anche una topografica può aiutare! 🗺️💎🏴‍☠️"
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "ranges": [
+            {
+                "min": 35,
+                "max": 40,
+                "feedback": "🌟🏆 WOW! Sei un CAMPIONE di geografia! Potresti fare l'esploratore!"
+            },
+            { "min": 30, "max": 34, "feedback": "🎯✨ ECCELLENTE! Conosci benissimo la geografia!" },
+            { "min": 25, "max": 29, "feedback": "👍🌍 BRAVO! Ottimo lavoro, continua così!" },
+            { "min": 20, "max": 24, "feedback": "😊📚 BUONO! Hai studiato bene, con un ripasso sarai perfetto!" },
+            { "min": 15, "max": 19, "feedback": "💪📖 DISCRETO! Continua a esercitarti, stai migliorando!" },
+            { "min": 0, "max": 14, "feedback": "🌱📚 Devi studiare ancora un po', ma non mollare! Ce la puoi fare!" }
+        ]
+    }
+}

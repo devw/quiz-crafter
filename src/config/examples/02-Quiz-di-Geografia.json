@@ -1,0 +1,319 @@
+{
+    "title": "Quiz di Geografia Divertente - 4ª Elementare",
+    "description": "Un quiz di geografia con domande serie... e risposte buffe! Riuscirai a non ridere? 😄🌍",
+    "sections": [
+        {
+            "title": "Sezione 1: Continenti e Oceani",
+            "description": "Scopri continenti e oceani... senza cadere nelle trappole buffe!",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "Quanti sono i continenti della Terra?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "6", "label": "A", "isCorrect": true },
+                        { "value": "5", "label": "B" },
+                        { "value": "12", "label": "C" },
+                        { "value": "Uno per ogni pizza che mangio", "label": "D" }
+                    ],
+                    "feedback": "I continenti sono 6! E no, non si mangiano come le pizze! 🍕😄"
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "Qual è il continente più freddo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Europa", "label": "A" },
+                        { "value": "Antartide", "label": "B", "isCorrect": true },
+                        { "value": "Africa", "label": "C" },
+                        { "value": "Il freezer di casa mia", "label": "D" }
+                    ],
+                    "feedback": "L'Antartide è il più freddo! Anche più del tuo freezer! ❄️🐧"
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "Quale oceano è il più grande del mondo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Oceano Atlantico", "label": "A" },
+                        { "value": "Oceano Pacifico", "label": "B", "isCorrect": true },
+                        { "value": "Oceano Artico", "label": "C" },
+                        { "value": "La piscina comunale", "label": "D" }
+                    ],
+                    "feedback": "L'Oceano Pacifico è gigantesco! La piscina comunale è un po' più piccolina! 🌊😂"
+                },
+                {
+                    "title": "Domanda 1.4",
+                    "question": "Quale continente si trova a sud dell'Europa?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Asia", "label": "A" },
+                        { "value": "Africa", "label": "B", "isCorrect": true },
+                        { "value": "America", "label": "C" },
+                        { "value": "Il paese dei balocchi", "label": "D" }
+                    ],
+                    "feedback": "L'Africa è sotto l'Europa! Il paese dei balocchi... è solo nelle favole! 🦁📚"
+                },
+                {
+                    "title": "Domanda 1.5",
+                    "question": "In quale continente vive il canguro?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Africa", "label": "A" },
+                        { "value": "Asia", "label": "B" },
+                        { "value": "Oceania", "label": "C", "isCorrect": true },
+                        { "value": "Nel mio giardino (vorrei!)", "label": "D" }
+                    ],
+                    "feedback": "I canguri vivono in Oceania! Nel tuo giardino ci saranno forse le lumache! 🦘🐌😄"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: Paralleli, Meridiani e Orientamento",
+            "description": "Impara a orientarti senza perderti... o ridere troppo!",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "Come si chiamano le linee orizzontali sulla Terra?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Meridiani", "label": "A" },
+                        { "value": "Paralleli", "label": "B", "isCorrect": true },
+                        { "value": "Cerchi", "label": "C" },
+                        { "value": "Gli spaghetti del mappamondo", "label": "D" }
+                    ],
+                    "feedback": "Sono i paralleli! Gli spaghetti stanno nel piatto! 🍝🌍😂"
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Qual è il parallelo più importante che divide la Terra a metà?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Equatore", "label": "A", "isCorrect": true },
+                        { "value": "Tropico", "label": "B" },
+                        { "value": "Polo Nord", "label": "C" },
+                        { "value": "La cintura di Batman", "label": "D" }
+                    ],
+                    "feedback": "L'Equatore! Batman tiene i pantaloni su con la sua cintura! 🦇😄"
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "I meridiani sono linee che vanno da dove a dove?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Da est a ovest", "label": "A" },
+                        { "value": "Dal Polo Nord al Polo Sud", "label": "B", "isCorrect": true },
+                        { "value": "In cerchio", "label": "C" },
+                        { "value": "Da casa a scuola", "label": "D" }
+                    ],
+                    "feedback": "Dal Polo Nord al Polo Sud! Il tragitto casa-scuola è più breve! 🏠🏫😂"
+                },
+                {
+                    "title": "Domanda 2.4",
+                    "question": "Dove si trova il Nord su una carta geografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "In basso", "label": "A" },
+                        { "value": "In alto", "label": "B", "isCorrect": true },
+                        { "value": "A sinistra", "label": "C" },
+                        { "value": "Dove punta il naso di Pinocchio", "label": "D" }
+                    ],
+                    "feedback": "Il Nord è in alto! Il naso di Pinocchio punta dove vuole lui quando dice le bugie! 🤥😄"
+                },
+                {
+                    "title": "Domanda 2.5",
+                    "question": "La rosa dei venti indica:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "I punti cardinali", "label": "A", "isCorrect": true },
+                        { "value": "La temperatura", "label": "B" },
+                        { "value": "I fiumi", "label": "C" },
+                        { "value": "Dove comprare le rose", "label": "D" }
+                    ],
+                    "feedback": "Indica i punti cardinali! Per le rose c'è il fioraio! 🌹🧭😂"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 3: Scale e Carte Geografiche",
+            "description": "Impara a leggere le carte... senza confonderle con altri tipi di carte!",
+            "questions": [
+                {
+                    "title": "Domanda 3.1",
+                    "question": "Cos'è la scala di una carta geografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        {
+                            "value": "Indica quanto è stato rimpicciolito il territorio",
+                            "label": "A",
+                            "isCorrect": true
+                        },
+                        { "value": "L'altezza delle montagne", "label": "B" },
+                        { "value": "Una scaletta per arrampicarsi", "label": "C" },
+                        { "value": "Le note musicali: do-re-mi-fa-sol-la-si", "label": "D" }
+                    ],
+                    "feedback": "Indica il rimpicciolimento! Le note musicali sono un'altra cosa! 🎵😄"
+                },
+                {
+                    "title": "Domanda 3.2",
+                    "question": "Se sulla carta 1 cm = 10 km, quanto sono 3 cm nella realtà?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "3 km", "label": "A" },
+                        { "value": "10 km", "label": "B" },
+                        { "value": "30 km", "label": "C", "isCorrect": true },
+                        { "value": "3 passi di formica", "label": "D" }
+                    ],
+                    "feedback": "30 km! I passi di formica sono molto più corti! 🐜📏😂"
+                },
+                {
+                    "title": "Domanda 3.3",
+                    "question": "Cosa mostra una carta fisica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "I confini degli Stati", "label": "A" },
+                        { "value": "Montagne, fiumi e mari", "label": "B", "isCorrect": true },
+                        { "value": "Le strade", "label": "C" },
+                        { "value": "Dove fare ginnastica", "label": "D" }
+                    ],
+                    "feedback": "Mostra montagne, fiumi e mari! Per la ginnastica c'è la palestra! 🏋️‍♀️🏞️😄"
+                },
+                {
+                    "title": "Domanda 3.4",
+                    "question": "Cosa mostra una carta politica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Solo i fiumi", "label": "A" },
+                        { "value": "Stati, regioni, città e confini", "label": "B", "isCorrect": true },
+                        { "value": "Solo le montagne", "label": "C" },
+                        { "value": "Chi vince le elezioni", "label": "D" }
+                    ],
+                    "feedback": "Mostra Stati e città! Le elezioni sono un'altra cosa! 🗳️🗺️😄"
+                },
+                {
+                    "title": "Domanda 3.5",
+                    "question": "Una carta tematica mostra:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Tutto insieme", "label": "A" },
+                        { "value": "Un solo tema specifico (clima, popolazione...)", "label": "B", "isCorrect": true },
+                        { "value": "Solo i colori", "label": "C" },
+                        { "value": "I temi dei compiti in classe", "label": "D" }
+                    ],
+                    "feedback": "Un solo tema specifico! I compiti in classe... quelli li decide la maestra! 📝😂"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 4: Domande Miste Divertenti",
+            "description": "Un mix di tutto... con tanto divertimento!",
+            "questions": [
+                {
+                    "title": "Domanda 4.1",
+                    "question": "Su una carta fisica, di che colore sono le montagne alte?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Verde", "label": "A" },
+                        { "value": "Marrone o rosso scuro", "label": "B", "isCorrect": true },
+                        { "value": "Blu", "label": "C" },
+                        { "value": "Del colore della Nutella", "label": "D" }
+                    ],
+                    "feedback": "Marrone scuro! La Nutella è buona ma non è un colore geografico! 🏔️🍫😄"
+                },
+                {
+                    "title": "Domanda 4.2",
+                    "question": "Quale carta useresti per trovare una strada nella tua città?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Carta fisica", "label": "A" },
+                        { "value": "Carta politica del mondo", "label": "B" },
+                        { "value": "Carta topografica o pianta della città", "label": "C", "isCorrect": true },
+                        { "value": "La carta d'identità di papà", "label": "D" }
+                    ],
+                    "feedback": "Serve una carta topografica! La carta d'identità serve per altro! 🪪🗺️😂"
+                },
+                {
+                    "title": "Domanda 4.3",
+                    "question": "L'Italia ha la forma di:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Un cerchio", "label": "A" },
+                        { "value": "Uno stivale", "label": "B", "isCorrect": true },
+                        { "value": "Un triangolo", "label": "C" },
+                        { "value": "Una banana gigante", "label": "D" }
+                    ],
+                    "feedback": "Uno stivale! Le banane giganti stanno in Africa! 👢🍌😄"
+                },
+                {
+                    "title": "Domanda 4.4",
+                    "question": "A cosa serve la legenda in una carta geografica?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Per decorare", "label": "A" },
+                        { "value": "Per spiegare i simboli e i colori", "label": "B", "isCorrect": true },
+                        { "value": "Per scrivere poesie", "label": "C" },
+                        { "value": "Per leggere le favole prima di dormire", "label": "D" }
+                    ],
+                    "feedback": "Spiega simboli e colori! Le favole stanno nei libri di storie! 📖💤😄"
+                },
+                {
+                    "title": "Domanda 4.5",
+                    "question": "Il Mar Mediterraneo bagna:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "L'Italia", "label": "A", "isCorrect": true },
+                        { "value": "Il Giappone", "label": "B" },
+                        { "value": "Il Brasile", "label": "C" },
+                        { "value": "Il mio gatto quando fa il bagno", "label": "D" }
+                    ],
+                    "feedback": "L'Italia! Il tuo gatto preferisce lavarsi da solo! 🐱💦🇮🇹😂"
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "ranges": [
+            {
+                "min": 18,
+                "max": 20,
+                "feedback": "🌟🏆 PERFETTO! Sei un GENIO della geografia! E non sei cascato nelle trappole buffe! 😄"
+            },
+            {
+                "min": 15,
+                "max": 17,
+                "feedback": "🎯✨ ECCELLENTE! Conosci benissimo la geografia e hai un ottimo senso dell'umorismo!"
+            },
+            {
+                "min": 12,
+                "max": 14,
+                "feedback": "👍😊 BRAVO! Hai studiato bene! Qualche risosta buffa ti ha fatto sorridere?"
+            },
+            { "min": 9, "max": 11, "feedback": "📚💪 BUONO! Continua a studiare, stai andando bene!" },
+            {
+                "min": 0,
+                "max": 8,
+                "feedback": "🌱📖 Devi ripassare un po', ma le risposte buffe ti hanno fatto ridere? 😄"
+            }
+        ]
+    }
+}

@@ -1,0 +1,368 @@
+Ecco il **quiz completo in formato JSON**, con:
+
+* **2 sezioni**
+* **12 domande per sezione (totale 24)**
+* **5 opzioni ciascuna**
+
+  * **1 corretta**
+  * **3 plausibili**
+  * **1 assurda e divertente**
+
+Struttura conforme al modello richiesto.
+
+---
+
+```json
+{
+  "title": "Quiz sulla Riforma Protestante e la sua Diffusione",
+  "description": "Domande a risposta multipla sulla Riforma di Lutero, la sua diffusione in Europa e la nascita delle nuove confessioni cristiane.",
+  "sections": [
+    {
+      "title": "Sezione 1: La Riforma di Lutero",
+      "description": "Le origini della Riforma, Lutero, il papato e i principi religiosi.",
+      "questions": [
+        {
+          "title": "Domanda 1.1",
+          "question": "Cosa criticava principalmente Martin Lutero con le sue 95 tesi?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La vendita delle indulgenze", "label": "A", "isCorrect": true },
+            { "value": "Il lusso della corte papale", "label": "B" },
+            { "value": "Il ruolo politico dei vescovi", "label": "C" },
+            { "value": "La gestione economica dei monasteri", "label": "D" },
+            { "value": "L'eccessiva lentezza del Wi-Fi in Vaticano", "label": "E" }
+          ],
+          "feedback": "Lutero denunciava lo scandalo delle indulgenze."
+        },
+        {
+          "title": "Domanda 1.2",
+          "question": "Chi era il papa al momento della contestazione di Lutero?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Leone X", "label": "A", "isCorrect": true },
+            { "value": "Pio II", "label": "B" },
+            { "value": "Giulio II", "label": "C" },
+            { "value": "Clemente VII", "label": "D" },
+            { "value": "Papa Gelsomino III il Saltatore", "label": "E" }
+          ],
+          "feedback": "Il papa era Leone X, della famiglia Medici."
+        },
+        {
+          "title": "Domanda 1.3",
+          "question": "Chi finanziava la raccolta delle offerte tramite la vendita delle indulgenze?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La famiglia Fugger", "label": "A", "isCorrect": true },
+            { "value": "La famiglia Medici", "label": "B" },
+            { "value": "I commercianti delle Fiandre", "label": "C" },
+            { "value": "I banchieri veneziani", "label": "D" },
+            { "value": "Un misterioso benefattore chiamato 'Zio Paperone'", "label": "E" }
+          ],
+          "feedback": "I Fugger erano una potente famiglia di banchieri tedeschi."
+        },
+        {
+          "title": "Domanda 1.4",
+          "question": "Quale principe tedesco diede protezione a Martin Lutero dopo la condanna imperiale?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Federico di Sassonia", "label": "A", "isCorrect": true },
+            { "value": "Massimiliano di Baviera", "label": "B" },
+            { "value": "Giorgio di Brandeburgo", "label": "C" },
+            { "value": "Sigismondo d'Austria", "label": "D" },
+            { "value": "Il principe che collezionava solo tazze da tè giganti", "label": "E" }
+          ],
+          "feedback": "Federico il Saggio nascose Lutero nel castello di Wartburg."
+        },
+        {
+          "title": "Domanda 1.5",
+          "question": "Quale imperatore convocò la Dieta di Worms contro Lutero?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Carlo V d'Asburgo", "label": "A", "isCorrect": true },
+            { "value": "Carlo IV", "label": "B" },
+            { "value": "Massimiliano I", "label": "C" },
+            { "value": "Federico III", "label": "D" },
+            { "value": "L'imperatore che comunicava solo tramite piccioni viaggiatori vestiti da maghi", "label": "E" }
+          ],
+          "feedback": "Carlo V governava il Sacro Romano Impero."
+        },
+        {
+          "title": "Domanda 1.6",
+          "question": "Quale concetto religioso Lutero rifiutava apertamente?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Il culto dei santi e della Vergine Maria", "label": "A", "isCorrect": true },
+            { "value": "Il battesimo dei bambini", "label": "B" },
+            { "value": "La lettura dei testi sacri", "label": "C" },
+            { "value": "La preghiera comunitaria", "label": "D" },
+            { "value": "Il potere miracoloso delle lasagne benedette", "label": "E" }
+          ],
+          "feedback": "Lutero riteneva che il culto dei santi distogliesse dalla fede in Cristo."
+        },
+        {
+          "title": "Domanda 1.7",
+          "question": "Qual era uno dei principi fondamentali della Riforma luterana?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La salvezza per fede", "label": "A", "isCorrect": true },
+            { "value": "La necessità dei pellegrinaggi", "label": "B" },
+            { "value": "La superiorità del clero sugli altri fedeli", "label": "C" },
+            { "value": "La centralità dei sacramenti", "label": "D" },
+            { "value": "L’obbligo di suonare un liuto per entrare in chiesa", "label": "E" }
+          ],
+          "feedback": "Lutero sosteneva che la salvezza dipendesse dalla fede, non dalle opere."
+        },
+        {
+          "title": "Domanda 1.8",
+          "question": "Quale problema sociale la Riforma contribuì a combattere attraverso l'uso della Bibbia in volgare?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "L'analfabetismo", "label": "A", "isCorrect": true },
+            { "value": "La carestia", "label": "B" },
+            { "value": "Le rivolte cittadine", "label": "C" },
+            { "value": "La disoccupazione", "label": "D" },
+            { "value": "La misteriosa scomparsa dei calzini nelle lavatrici medievali", "label": "E" }
+          ],
+          "feedback": "Tradurre la Bibbia rendeva possibile l’istruzione di più persone."
+        },
+        {
+          "title": "Domanda 1.9",
+          "question": "Come definiva Lutero il ruolo del papa?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Un'autorità umana fallibile", "label": "A", "isCorrect": true },
+            { "value": "Il diretto rappresentante di Dio in terra", "label": "B" },
+            { "value": "Un giudice morale", "label": "C" },
+            { "value": "Un capo spirituale universale", "label": "D" },
+            { "value": "Il re dei draghi alati protettori dei monasteri", "label": "E" }
+          ],
+          "feedback": "Lutero negava l’infallibilità del papa."
+        },
+        {
+          "title": "Domanda 1.10",
+          "question": "Cos’era la simonia, uno dei problemi principali denunciati nel periodo?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La vendita di cariche ecclesiastiche", "label": "A", "isCorrect": true },
+            { "value": "La costruzione illegale di monasteri", "label": "B" },
+            { "value": "La manipolazione delle reliquie", "label": "C" },
+            { "value": "Il controllo dei feudi da parte dei monaci", "label": "D" },
+            { "value": "Lo scambio di pecore benedette per punti fedeltà", "label": "E" }
+          ],
+          "feedback": "La simonia era la compravendita di cariche religiose."
+        },
+        {
+          "title": "Domanda 1.11",
+          "question": "Cosa prometteva la vendita delle indulgenze secondo la Chiesa del tempo?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La cancellazione delle pene temporali", "label": "A", "isCorrect": true },
+            { "value": "L’accesso diretto al paradiso", "label": "B" },
+            { "value": "La purificazione dell’anima", "label": "C" },
+            { "value": "La riduzione del tempo in purgatorio", "label": "D" },
+            { "value": "Un viaggio gratis in mongolfiera sopra Roma", "label": "E" }
+          ],
+          "feedback": "Le indulgenze riducevano le pene dopo la confessione."
+        },
+        {
+          "title": "Domanda 1.12",
+          "question": "Quale cambiamento introdusse Lutero nella pratica religiosa?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "L’accesso diretto dei fedeli alla Bibbia", "label": "A", "isCorrect": true },
+            { "value": "L’introduzione di nuove feste religiose", "label": "B" },
+            { "value": "La riduzione dei sacramenti da sette a cinque", "label": "C" },
+            { "value": "La riforma del canto gregoriano", "label": "D" },
+            { "value": "La creazione del primo karaoke liturgico", "label": "E" }
+          ],
+          "feedback": "La Bibbia in volgare era centrale per Lutero."
+        }
+      ]
+    },
+    {
+      "title": "Sezione 2: Diffusione della Riforma in Europa",
+      "description": "Rivolte sociali, calvinismo, Svizzera, anglicanesimo.",
+      "questions": [
+        {
+          "title": "Domanda 2.1",
+          "question": "Quale classe sociale si sollevò in Germania sperando in una maggiore uguaglianza?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "I contadini", "label": "A", "isCorrect": true },
+            { "value": "I mercanti", "label": "B" },
+            { "value": "I cavalieri", "label": "C" },
+            { "value": "Gli artigiani", "label": "D" },
+            { "value": "L’Ordine dei Cavalieri dell'Ananas", "label": "E" }
+          ],
+          "feedback": "I contadini vedevano nella Riforma una possibilità di emancipazione."
+        },
+        {
+          "title": "Domanda 2.2",
+          "question": "Cosa rifiutavano i contadini durante le rivolte tedesche ispirate dalla Riforma?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Le decime ecclesiastiche", "label": "A", "isCorrect": true },
+            { "value": "Le tasse commerciali", "label": "B" },
+            { "value": "Il servizio militare", "label": "C" },
+            { "value": "La giustizia feudale", "label": "D" },
+            { "value": "La tassa annuale sui baffi lunghi", "label": "E" }
+          ],
+          "feedback": "Le decime erano percepite come un pesante sfruttamento."
+        },
+        {
+          "title": "Domanda 2.3",
+          "question": "In quale paese si sviluppò il Calvinismo?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Svizzera", "label": "A", "isCorrect": true },
+            { "value": "Francia", "label": "B" },
+            { "value": "Germania", "label": "C" },
+            { "value": "Paesi Bassi", "label": "D" },
+            { "value": "Nel misterioso Regno dei Pinguini Eleganti", "label": "E" }
+          ],
+          "feedback": "Calvino avviò la sua riforma a Ginevra."
+        },
+        {
+          "title": "Domanda 2.4",
+          "question": "Come vennero chiamati i seguaci del Calvinismo in Francia?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Ugualnoti", "label": "A", "isCorrect": true },
+            { "value": "Valdesi", "label": "B" },
+            { "value": "Protestanti cattolici", "label": "C" },
+            { "value": "Zwingliani", "label": "D" },
+            { "value": "I Cavalieri del Croissant Luminoso", "label": "E" }
+          ],
+          "feedback": "Gli ugonotti erano fortemente influenzati dal Calvinismo."
+        },
+        {
+          "title": "Domanda 2.5",
+          "question": "Quale dottrina è centrale nel Calvinismo?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La predestinazione", "label": "A", "isCorrect": true },
+            { "value": "Il culto delle reliquie", "label": "B" },
+            { "value": "Il valore del pellegrinaggio", "label": "C" },
+            { "value": "La possibilità dei miracoli quotidiani", "label": "D" },
+            { "value": "La reincarnazione in forma di scoiattolo saggio", "label": "E" }
+          ],
+          "feedback": "Calvino credeva che Dio avesse già scelto chi salvare."
+        },
+        {
+          "title": "Domanda 2.6",
+          "question": "Chi fu il protagonista della Riforma inglese?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true },
+            { "value": "Enrico VIII", "label": "A", "isCorrect": true },
+            { "value": "Giacomo I", "label": "B" },
+            { "value": "Edoardo VI", "label": "C" },
+            { "value": "Carlo I", "label": "D" },
+            { "value": "Un re che si sposava solo per ottenere sconti sulle torte nuziali", "label": "E" }
+          ],
+          "feedback": "Enrico VIII ruppe con Roma per motivi personali e politici."
+        },
+        {
+          "title": "Domanda 2.7",
+          "question": "Per quale motivo Enrico VIII ruppe con il papa?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Per ottenere l'annullamento del suo matrimonio", "label": "A", "isCorrect": true },
+            { "value": "Per un disaccordo economico", "label": "B" },
+            { "value": "Per una disputa territoriale", "label": "C" },
+            { "value": "Per conflitti sulla nomina dei vescovi", "label": "D" },
+            { "value": "Perché il papa si era rifiutato di prestargli il cappello papale per carnevale", "label": "E" }
+          ],
+          "feedback": "Il papa negò l'annullamento chiesto dal re."
+        },
+        {
+          "title": "Domanda 2.8",
+          "question": "Quale chiesa nacque ufficialmente con Enrico VIII?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "La Chiesa Anglicana", "label": "A", "isCorrect": true },
+            { "value": "La Chiesa Episcopale", "label": "B" },
+            { "value": "La Chiesa Metodista", "label": "C" },
+            { "value": "La Chiesa Luterana Inglese", "label": "D" },
+            { "value": "La Chiesa del Sacro Toast Abbrustolito", "label": "E" }
+          ],
+          "feedback": "La Chiesa Anglicana nasce nel 1534 con l’Act of Supremacy."
+        },
+        {
+          "title": "Domanda 2.9",
+          "question": "Chi fu la seconda moglie di Enrico VIII, il cui matrimonio portò allo scisma?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Anna Bolena", "label": "A", "isCorrect": true },
+            { "value": "Caterina d'Aragona", "label": "B" },
+            { "value": "Jane Seymour", "label": "C" },
+            { "value": "Anna di Cleves", "label": "D" },
+            { "value": "La misteriosa 'Donna Senza Nome' che mangiava polli interi in un morso", "label": "E" }
+          ],
+          "feedback": "Anna Bolena fu fondamentale nello scisma inglese."
+        },
+        {
+          "title": "Domanda 2.10",
+          "question": "Quale termine venne usato per indicare i cristiani che si opponevano alla Chiesa di Roma?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Protestanti", "label": "A", "isCorrect": true },
+            { "value": "Cattolici riformati", "label": "B" },
+            { "value": "Evangelici romani", "label": "C" },
+            { "value": "Riformatori locali", "label": "D" },
+            { "value": "I ribelli dell'ordine segreto del formaggio sacro", "label": "E" }
+          ],
+          "feedback": "Il termine nasce dalla 'protesta' dei principi tedeschi."
+        },
+        {
+          "title": "Domanda 2.11",
+          "question": "Come veniva organizzata la comunità protestante in Svizzera secondo Calvino?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Con una rigida disciplina morale", "label": "A", "isCorrect": true },
+            { "value": "Con un'organizzazione monastica", "label": "B" },
+            { "value": "Con un potere centralizzato", "label": "C" },
+            { "value": "Con un sistema gerarchico simile a quello cattolico", "label": "D" },
+            { "value": "Con la supervisione di un'oca addestrata a giudicare i peccati", "label": "E" }
+          ],
+          "feedback": "Calvino impose severità e ordine morale."
+        },
+        {
+          "title": "Domanda 2.12",
+          "question": "Quale effetto ebbe la diffusione della Riforma in Europa?",
+          "type": "MULTIPLE_CHOICE",
+          "required": true,
+          "options": [
+            { "value": "Una frammentazione del cristianesimo occidentale", "label": "A", "isCorrect": true },
+            { "value": "L’unificazione religiosa europea", "label": "B" },
+            { "value": "La crescita dell'autorità papale", "label": "C" },
+            { "value": "La fine delle tensioni politiche", "label": "D" },
+            { "value": "La nascita della 'Lega dei Monaci Ninja del Nord'", "label": "E" }
+          ],
+          "feedback": "La Riforma creò diverse nuove confessioni cristiane."
+        }
+      ]
+    }
+  ]
+}

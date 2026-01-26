@@ -5,7 +5,7 @@ import { parseCliArgs, getUsageMessage } from "./utils/cliParser.js";
 import { initializeAPIs } from "./utils/apiInitializer.js";
 import { displayQuizStats, displayResults } from "./utils/displayHelpers.js";
 import { loadQuizFile } from "./utils/quizLoader.js";
-import { createFormFromQuiz, addQuizQuestions } from "./services/formService.js";
+import { createFormFromQuiz, addQuizQuestions, addPersonalInfoSection } from "./services/formService.js";
 import { moveFormToFolder } from "./services/driveService.js";
 
 dotenv.config();
@@ -30,8 +30,15 @@ const startQuizCrafter = async () => {
         logSuccess("Authenticated successfully with user credentials.");
         const { forms, drive } = initializeAPIs(authClient);
 
-        // Create form and add questions
+        // Create form
         const formContext = await createFormFromQuiz(forms, quiz);
+
+        // CHANGED: Add personal info section BEFORE quiz questions
+        if (config.includePersonalInfo) {
+            await addPersonalInfoSection(forms, formContext.formId);
+        }
+
+        // Add quiz questions AFTER personal info
         const questionContext = await addQuizQuestions({
             ...formContext,
             drive,

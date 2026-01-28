@@ -51,38 +51,72 @@ export const addQuizQuestions = async ({ forms, formId, responderUri, quiz, driv
 export const addPersonalInfoSection = async (forms, formId) => {
     log("📝", "Adding personal info fields...");
 
-    const items = [
-        { title: "Personal Information", type: "text", required: false },
-        { title: "First Name", type: "text", required: true },
-        { title: "Last Name", type: "text", required: true },
-        { title: "Section/Class (optional)", type: "text", required: false },
-    ];
-
-    const requests = items.map((item, index) => ({
-        createItem: {
-            item: {
-                title: item.title,
-                questionItem: {
-                    question: {
-                        required: item.required,
-                        textQuestion: {},
+    const requests = [
+        // Section header (text only, no input field)
+        {
+            createItem: {
+                item: {
+                    title: "Personal Information",
+                    description: "Please fill in your details below",
+                    textItem: {},  // ← TEXT ITEM invece di questionItem
+                },
+                location: { index: 0 },
+            },
+        },
+        // Actual input fields
+        {
+            createItem: {
+                item: {
+                    title: "First Name",
+                    questionItem: {
+                        question: {
+                            required: true,
+                            textQuestion: {},
+                        },
                     },
                 },
+                location: { index: 1 },
             },
-            location: { index },
         },
-    }));
-
-    // Add page break after personal info section
-    requests.push({
-        createItem: {
-            item: {
-                title: "",
-                pageBreakItem: {},  // ← PAGE BREAK
+        {
+            createItem: {
+                item: {
+                    title: "Last Name",
+                    questionItem: {
+                        question: {
+                            required: true,
+                            textQuestion: {},
+                        },
+                    },
+                },
+                location: { index: 2 },
             },
-            location: { index: items.length },  // ← Dopo l'ultimo campo personale
         },
-    });
+        {
+            createItem: {
+                item: {
+                    title: "Section/Class (optional)",
+                    questionItem: {
+                        question: {
+                            required: false,
+                            textQuestion: {},
+                        },
+                    },
+                },
+                location: { index: 3 },
+            },
+        },
+        // Page break
+        {
+            createItem: {
+                item: {
+                    title: "",
+                    pageBreakItem: {},
+                },
+                location: { index: 4 },
+            },
+        },
+    ];
 
     const params = createBatchUpdateParams(formId, { requests });
     await forms.forms.batchUpdate(params);

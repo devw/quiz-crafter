@@ -74,7 +74,7 @@ cp .env.example .env
 ### Step 2: Generate form
 
 ```bash
-node src/createForm.js --quiz my-quiz.json
+node src/createForm.js --quiz my-quiz.json --include-personal-info
 ```
 
 **First time:** Browser opens → Sign in → Allow permissions → Done!
@@ -99,7 +99,7 @@ Click the URL to view your form in Google Forms.
 node src/createForm.js -q quiz.json
 
 # Save to specific folder
-node src/createForm.js -q quiz.json -f <folder-id>
+node src/createForm.js -q quiz.json -f <folder-id> --include-personal-info
 
 # Try example
 node src/createForm.js -q ./src/config/examples/sample-quiz.json

@@ -20,6 +20,7 @@ export const displayResults = (formId, responderUri, quiz, folderId) => {
     log("📩", `Response URL: ${urls.response}`);
 
     if (folderId) {
-        log("��", `Saved to folder ID: ${folderId}`);
+        const folderUrl = `https://drive.google.com/drive/folders/${folderId}`;
+        log("📂", `Drive Folder: ${folderUrl}`);
     }
 };

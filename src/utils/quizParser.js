@@ -71,10 +71,10 @@ const createPageBreak = () => {
     return { pageBreakItem: {} };
 };
 
-export const parseQuizToBatchUpdate = (quiz) => {
+export const parseQuizToBatchUpdate = (quiz, startIndex = 0) => {  // ← AGGIUNTO parametro startIndex
     const requests = [];
     let questionIndex = 0;
-    let itemIndex = 0; // FIX: contatore reale degli item
+    let itemIndex = startIndex; // ← CAMBIATO: parte da startIndex invece di 0
 
     if (quiz.title) {
         requests.push({
@@ -98,7 +98,7 @@ export const parseQuizToBatchUpdate = (quiz) => {
                 requests.push({
                     createItem: {
                         item: createTextItem(headerText),
-                        location: { index: itemIndex++ }, // <-- FIX
+                        location: { index: itemIndex++ },
                     },
                 });
             }
@@ -108,7 +108,7 @@ export const parseQuizToBatchUpdate = (quiz) => {
                 requests.push({
                     createItem: {
                         item: createQuestionItem(question, questionIndex),
-                        location: { index: itemIndex++ }, // <-- FIX
+                        location: { index: itemIndex++ },
                     },
                 });
                 questionIndex++;
@@ -119,7 +119,7 @@ export const parseQuizToBatchUpdate = (quiz) => {
                 requests.push({
                     createItem: {
                         item: createPageBreak(),
-                        location: { index: itemIndex++ }, // <-- FIX
+                        location: { index: itemIndex++ },
                     },
                 });
             }

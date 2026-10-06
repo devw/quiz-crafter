@@ -1,7 +1,7 @@
 /**
  * Quiz Parser - Converts quiz JSON to Google Forms batch update format
  */
-import { sanitizeText } from "./textSanitizer.js";
+import { sanitizeText, sanitizeDescription } from "./textSanitizer.js";
 
 export const getQuizStats = (quiz) => {
     const sections = quiz.sections?.length || 0;
@@ -22,7 +22,7 @@ const createTextItem = (text) => {
 
 const createQuestionItem = (questionData, questionIndex) => {
     const question = {
-        title: sanitizeText(questionData.question),
+        title: sanitizeText(questionData.title || questionData.question),
         questionItem: {
             question: {
                 required: questionData.required !== false,
@@ -30,9 +30,11 @@ const createQuestionItem = (questionData, questionIndex) => {
         },
     };
 
+    const descriptionParts = questionData.title ? [questionData.question] : [];
     if (questionData.hint) {
-        question.description = sanitizeText(questionData.hint);
+        descriptionParts.push(`\n\n💡 ${questionData.hint}`);
     }
+    question.description = sanitizeDescription(descriptionParts.join(""));
 
     if (questionData.options && questionData.options.length > 0) {
         question.questionItem.question.choiceQuestion = {
@@ -71,7 +73,8 @@ const createPageBreak = () => {
     return { pageBreakItem: {} };
 };
 
-export const parseQuizToBatchUpdate = (quiz, startIndex = 0) => {  // ← AGGIUNTO parametro startIndex
+export const parseQuizToBatchUpdate = (quiz, startIndex = 0) => {
+    // ← AGGIUNTO parametro startIndex
     const requests = [];
     let questionIndex = 0;
     let itemIndex = startIndex; // ← CAMBIATO: parte da startIndex invece di 0
@@ -156,7 +159,7 @@ export const validateQuiz = (quiz) => {
 
             if (question.question?.includes("\n")) {
                 console.warn(
-                    `⚠️  Question ${questionIndex + 1} in section ${sectionIndex + 1} contains newlines - will be sanitized`
+                    `⚠️  Question ${questionIndex + 1} in section ${sectionIndex + 1} contains newlines - will be sanitized`,
                 );
             }
         });

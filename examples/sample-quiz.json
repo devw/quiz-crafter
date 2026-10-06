@@ -1,0 +1,106 @@
+{
+    "title": "Quiz Logica - Livello Avanzato",
+    "description": "Testa le tue abilità logiche con sequenze numeriche, ragionamento verbale, deduzione e sillogismi.",
+    "sections": [
+        {
+            "title": "Sezione 1: Sequenze Numeriche",
+            "description": "Trova il numero mancante seguendo la logica della sequenza.",
+            "questions": [
+                {
+                    "title": "Domanda 1.1",
+                    "question": "2, 6, 12, 20, 30, ?",
+                    "hint": "Guarda le differenze tra i numeri consecutivi",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "40", "label": "A" },
+                        { "value": "42", "label": "B", "isCorrect": true },
+                        { "value": "44", "label": "C" },
+                        { "value": "36", "label": "D" }
+                    ],
+                    "feedback": "Si aggiungono i numeri pari consecutivi: +4, +6, +8, +10, +12"
+                },
+                {
+                    "title": "Domanda 1.2",
+                    "question": "1, 1, 2, 6, 24, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "48", "label": "A" },
+                        { "value": "72", "label": "B" },
+                        { "value": "120", "label": "C", "isCorrect": true },
+                        { "value": "144", "label": "D" }
+                    ],
+                    "feedback": "👉 Ogni termine viene ottenuto moltiplicando il precedente per un numero che aumenta di 1. Quindi il prossimo sarà: 24×5=120"
+                },
+                {
+                    "title": "Domanda 1.3",
+                    "question": "3, 7, 15, 31, 63, ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "127", "label": "A", "isCorrect": true },
+                        { "value": "125", "label": "B" },
+                        { "value": "129", "label": "C" },
+                        { "value": "95", "label": "D" }
+                    ],
+                    "feedback": "Ogni numero è (precedente × 2) + 1"
+                }
+            ]
+        },
+        {
+            "title": "Sezione 2: Ragionamento Verbale",
+            "description": "Trova la relazione logica tra le parole.",
+            "questions": [
+                {
+                    "title": "Domanda 2.1",
+                    "question": "LIBRO sta a PAGINA come CASA sta a:",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Mattone", "label": "A", "isCorrect": true },
+                        { "value": "Tetto", "label": "B" },
+                        { "value": "Giardino", "label": "C" },
+                        { "value": "Finestra", "label": "D" }
+                    ],
+                    "feedback": "Un libro è composto da pagine, una casa è composta da mattoni."
+                },
+                {
+                    "title": "Domanda 2.2",
+                    "question": "Quale parola NON appartiene al gruppo?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "Violino", "label": "A" },
+                        { "value": "Chitarra", "label": "B" },
+                        { "value": "Pianoforte", "label": "C" },
+                        { "value": "Tromba", "label": "D", "isCorrect": true }
+                    ],
+                    "feedback": "Gli altri sono strumenti a corda, la tromba è uno strumento a fiato."
+                },
+                {
+                    "title": "Domanda 2.3",
+                    "question": "Se MARE = 13-1-18-5, allora CIELO = ?",
+                    "type": "MULTIPLE_CHOICE",
+                    "required": true,
+                    "options": [
+                        { "value": "3-9-5-12-15", "label": "A", "isCorrect": true },
+                        { "value": "3-8-5-11-14", "label": "B" },
+                        { "value": "4-9-6-12-15", "label": "C" },
+                        { "value": "2-8-4-11-14", "label": "D" }
+                    ],
+                    "feedback": "Ogni lettera corrisponde alla sua posizione nell'alfabeto (C=3, I=9, E=5, L=12, O=15)."
+                }
+            ]
+        }
+    ],
+    "scoring": {
+        "ranges": [
+            { "min": 13, "max": 15, "feedback": "Eccellente! Logica molto sviluppata" },
+            { "min": 10, "max": 12, "feedback": "Ottimo livello" },
+            { "min": 7, "max": 9, "feedback": "Buon livello, continua ad esercitarti" },
+            { "min": 4, "max": 6, "feedback": "Livello sufficiente, serve più pratica" },
+            { "min": 0, "max": 3, "feedback": "Rivedi i concetti base di logica" }
+        ]
+    }
+}

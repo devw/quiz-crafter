@@ -22,6 +22,11 @@ const isNonEmptyString = (value) => typeof value === "string" && value.trim().le
 
 const isNonEmptyArray = (value) => Array.isArray(value) && value.length > 0;
 
+// Open questions (free-text answer) have no options
+const OPEN_QUESTION_TYPES = ["PARAGRAPH", "SHORT_ANSWER"];
+
+const isOpenQuestion = (question) => OPEN_QUESTION_TYPES.includes(question.type);
+
 const validateQuizTitle = (quiz) => {
     const hasTitle = hasRequiredField(quiz, "title");
     const isValid = hasTitle && isNonEmptyString(quiz.title);
@@ -64,14 +69,15 @@ const validateSection = (section, index) => {
 };
 
 const validateQuestion = (question, sectionIndex, questionIndex) => {
-    const requiredFields = ["title", "question", "type", "options"];
+    const openQuestion = isOpenQuestion(question);
+    const requiredFields = openQuestion ? ["title", "question", "type"] : ["title", "question", "type", "options"];
     const missingFields = requiredFields.filter((field) => !hasRequiredField(question, field));
 
     const hasAllFields = missingFields.length === 0;
     const hasOptions = hasAllFields && isNonEmptyArray(question.options);
     const hasMinOptions = hasOptions && question.options.length >= 2;
 
-    const isValid = hasAllFields && hasMinOptions;
+    const isValid = hasAllFields && (openQuestion || hasMinOptions);
 
     const result = {
         valid: isValid,
@@ -136,7 +142,7 @@ const validateAllQuestions = (sections) => {
 const validateAllOptions = (sections) => {
     const validations = sections.flatMap((section, sectionIndex) =>
         section.questions.flatMap((question, questionIndex) =>
-            question.options.map((option, optionIndex) =>
+            (question.options || []).map((option, optionIndex) =>
                 validateOption(option, sectionIndex, questionIndex, optionIndex)
             )
         )

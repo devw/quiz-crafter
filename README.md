@@ -119,11 +119,13 @@ node src/createForm.js -q ./src/config/examples/sample-quiz.json
     - `questions[]`: Array of questions
         - `title`: Question identifier
         - `question`: Question text
-        - `type`: `MULTIPLE_CHOICE`, `CHECKBOX`, or `DROPDOWN`
-        - `options[]`: Answer options
+        - `type`: `MULTIPLE_CHOICE`, `CHECKBOX`, `DROPDOWN`, or an open question type: `PARAGRAPH` (long answer) or `SHORT_ANSWER` (short answer)
+        - `options[]`: Answer options (not needed for `PARAGRAPH` and `SHORT_ANSWER`)
             - `value`: Option text
             - `label`: Option letter (A, B, C...)
             - `isCorrect`: Mark correct answer(s)
+
+Open questions (`PARAGRAPH`, `SHORT_ANSWER`) are created without automatic grading: the teacher corrects them by hand. Their `feedback` field is not sent to Google Forms; use it as a correction guide.
 
 ### Optional fields
 
